@@ -1915,6 +1915,9 @@
       "Contact could not be saved": [
         "无法保存联系人"
       ],
+      "Contact name is too long": [
+        "联系人名称过长"
+      ],
       "Contact signature not verified": [
         "未验证联系人签名"
       ],
@@ -2137,9 +2140,6 @@
       "This label name is not available. Please choose a different name.": [
         "标签名称不可用，请重新填写。"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "此邮件可能含有当前浏览器无法正确打开的链接。"
-      ],
       "Try using only letters, numerals, and _.-": [
         "请使用英文字母、阿拉伯数字或 _ . - 符号"
       ],
@@ -2148,9 +2148,6 @@
       ],
       "You can't send a mail to more than 100 recipients": [
         "收件人不能超过 100 个"
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "您不能发送超过 10 个联系人的 vCard"
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
         "您已达到您账户等级所能创建的个人日历数上限。无法导入多出的日历。"
@@ -2951,8 +2948,8 @@
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "重新接收验证码前，请先检查垃圾邮件文件夹，并确认邮箱地址 ${ strong } 是否正确。"
       ],
-      "Bulk uploads may reduce your computer’s performance. Consider limiting memory-intensive activities like streaming during upload. Or try uploading in batches.": [
-        "批量上传可能会降低计算机的性能。应考虑上传过程中，限制如串流等内存密集型活动。 或者尝试分批上传。"
+      "Calendar side panel": [
+        "日历侧边栏"
       ],
       "Canceled": [
         "已取消"
@@ -3805,9 +3802,6 @@
       ]
     },
     "Label": {
-      "# of accesses": [
-        "下载次数"
-      ],
       "${ BRAND_NAME } username": [
         "${ BRAND_NAME } 用户名"
       ],
@@ -3879,6 +3873,9 @@
       ],
       "Code is 6 digits without spaces": [
         "验证码是无空格的六位数"
+      ],
+      "Colors": [
+        "颜色"
       ],
       "Coming soon": [
         "即将推出"
@@ -4526,9 +4523,6 @@
       "File or folder is missing a name": [
         "文件或文件夹缺少名称"
       ],
-      "Item failed to be verified": [
-        "项目验证失败"
-      ],
       "Link failed to be loaded": [
         "链接加载失败"
       ],
@@ -4844,9 +4838,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } 现已正式发布！您的文档也可以具备与邮件同等的安全性。"
-      ],
       "Encrypted search is here": [
         "已推出加密搜索功能"
       ],
@@ -4858,9 +4849,6 @@
       ],
       "Now you can easily search Drive files while keeping your data secure.": [
         "现在，您可以保持数据安全，同时轻松搜索网盘文件。"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "体验 ${ DRIVE_APP_NAME }"
       ]
     },
     "Storage": {
@@ -5015,9 +5003,6 @@
       ]
     },
     "Title": {
-      "# of accesses": [
-        "下载次数"
-      ],
       "${ emailsCount } members": [
         "${ emailsCount } 位成員"
       ],
@@ -5485,6 +5470,9 @@
       ],
       "Your changes are not synced yet": [
         "您的改动尚未同步"
+      ],
+      "Your Mail Plus free trial ends on ${ textDate }": [
+        "您的 Mail Plus 免费体验期将于 ${ textDate } 结束"
       ],
       "Your welcome actions": [
         "您的新人礼包"

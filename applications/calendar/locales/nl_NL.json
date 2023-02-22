@@ -121,6 +121,9 @@
       "Continue import": [
         "Doorgaan met importeren"
       ],
+      "Continue to ${ calendarAppBareName }": [
+        "Doorgaan naar ${ calendarAppBareName }"
+      ],
       "Continue with Google": [
         "Ga verder met Google"
       ],
@@ -234,6 +237,9 @@
       "Hide advanced PGP settings": [
         "Geavanceerde PGP-instellingen verbergen"
       ],
+      "Hide affected calendars": [
+        "Verberg betrokken agenda's"
+      ],
       "Hide folders": [
         "Mappen verbergen"
       ],
@@ -345,6 +351,9 @@
       "Open navigation": [
         "Navigatie openen"
       ],
+      "Open settings": [
+        "Instellingen openen"
+      ],
       "Preview contact": [
         "Contact tonen"
       ],
@@ -437,6 +446,9 @@
       ],
       "Show advanced PGP settings": [
         "Geavanceerde PGP-instellingen tonen"
+      ],
+      "Show affected calendars": [
+        "Toon betrokken agenda's"
       ],
       "Show folders": [
         "Mappen weergeven"
@@ -1987,6 +1999,11 @@
         "De afspraak hoort bij een uitgeschakelde agenda."
       ]
     },
+    "Don't ask to update timezone checkbox label": {
+      "Do not ask again": [
+        "Niet opnieuw vragen"
+      ]
+    },
     "Dropdown action icon tooltip": {
       "Add calendar": [
         "Agenda toevoegen"
@@ -2135,6 +2152,9 @@
       ],
       "Contact could not be saved": [
         "Contact kan niet opgeslagen worden"
+      ],
+      "Contact name is too long": [
+        "Naam van contact is te lang"
       ],
       "Contact signature could not be verified": [
         "Contacthandtekening kan niet geverifieerd worden"
@@ -2392,7 +2412,7 @@
       "This label name is not available. Please choose a different name.": [
         "Deze labelnaam is niet beschikbaar. Kies een andere naam."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "Dit bericht kan koppelingen bevatten die niet op de juiste wijze geopend kunnen worden door uw huidige browser."
       ],
       "Trusted keys are not valid for sending": [
@@ -2410,8 +2430,8 @@
       "You can't send a mail to more than 100 recipients": [
         "U kunt geen e-mail verzenden naar meer dan 100 ontvangers"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "U kunt geen vCards van meer dan 10 contacten verzenden"
+      "You can't send vCard files of more than 10 contacts": [
+        "U kunt geen vCard-bestand met meer dan 10 contacten verzenden"
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
         "U heeft het maximale aantal persoonlijke agenda's bereikt. Sommige agenda's konden niet worden geïmporteerd."
@@ -3240,6 +3260,9 @@
       "By sharing the full event details of this calendar, you accept to grant ${ BRAND_NAME } access to this calendar's encrypted information.": [
         "Door de volledige agendadetails van deze agenda te delen, gaat u akkoord om ${ BRAND_NAME } toegang te verlenen tot versleutelde informatie van deze agenda."
       ],
+      "Calendar side panel": [
+        "Agenda zijpaneel"
+      ],
       "Cannot remember your password? We can help you clear the encrypted data of all contacts encrypted with this key and in the process dismiss the alert.": [
         "Weet u uw wachtwoord niet? We kunnen u helpen de versleutelde gegevens van alle contactpersonen te wissen die versleuteld zijn met deze sleutel en in het proces kunt u de melding negeren."
       ],
@@ -3251,6 +3274,9 @@
       ],
       "Close this screen to exit.": [
         "Sluit dit scherm om af te sluiten."
+      ],
+      "Country code": [
+        "Landcode"
       ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Maak één nieuwe agenda",
@@ -3615,6 +3641,9 @@
       "Update recurring event": [
         "Terugkerende afspraak updaten"
       ],
+      "Upgrade now to get premium features, products and storage at a special price": [
+        "Upgrade nu om alle premium functionaliteiten, producten en opslag te krijgen voor een speciale prijs"
+      ],
       "We'll notify you when the import is done.": [
         "We laten het u weten als de import klaar is."
       ],
@@ -3686,9 +3715,6 @@
       ],
       "You have reactivated your keys and events linked to the following calendars can now be decrypted.": [
         "U hebt uw sleutels opnieuw geactiveerd. Afspraken gekoppeld aan de volgende kalenders kunnen nu gedecodeerd worden."
-      ],
-      "You have reset your password and events linked to the following calendars couldn't be decrypted.\nAny shared calendar links you created previously will no longer work.\nAny active subscribed calendars will synchronize again after a few minutes.": [
-        "U hebt uw wachtwoord opnieuw ingesteld en afspraken gekoppeld aan de volgende agenda's konden niet worden ontsleuteld.\nAlle gedeelde agendakoppelingen die u eerder hebt gemaakt, werken niet meer.\nAlle actieve geabonneerde agenda's zullen na een paar minuten weer synchroniseren."
       ],
       "You previously rejected this invitation. Ask the owner for a re-invite": [
         "U hebt deze uitnodiging eerder al geweigerd. Vraag de eigenaar naar een nieuwe uitnodiging"
@@ -3766,6 +3792,34 @@
     "Info on errors": {
       "Click for details": [
         "Klik voor details"
+      ]
+    },
+    "Info; reset calendar keys modal; part 1": {
+      "Some of your calendars will not show details of previously created events.": [
+        "Sommige van uw agenda's tonen geen gegevens van oude afspraken."
+      ],
+      "Your calendars will not show details of previously created events.": [
+        "Uw agenda's tonen geen gegevens van oude afspraken."
+      ]
+    },
+    "Info; reset calendar keys modal; part 2": {
+      "This is because your password was recently reset without using a recovery method.": [
+        "Dit is omdat uw wachtwoord onlangs gereset is zonder een herstelmethode."
+      ]
+    },
+    "Info; reset calendar keys modal; part 3": {
+      "You can recover your encrypted data with a recovery file, recovery phrase, or your old password.": [
+        "U kunt uw versleutelde gegevens herstellen met een herstelbestand, herstelzin of uw oude wachtwoord."
+      ]
+    },
+    "Info; reshare calendar modal; part 1": {
+      "Calendar sharing was disabled following your recent password reset.": [
+        "Agenda delen is uitgeschakeld na uw recente wachtwoord reset."
+      ]
+    },
+    "Info; reshare calendar modal; part 2": {
+      "You can reshare your calendars in settings.": [
+        "U kunt uw agenda's opnieuw delen in de instellingen."
       ]
     },
     "Input label": {
@@ -3867,6 +3921,9 @@
       ],
       "Color": [
         "Kleur"
+      ],
+      "Colors": [
+        "Kleuren"
       ],
       "Coming soon": [
         "Binnenkort beschikbaar"
@@ -4209,6 +4266,11 @@
     "Link to calendar app": {
       "Open in ${ CALENDAR_APP_NAME }": [
         "Open in ${ CALENDAR_APP_NAME }"
+      ]
+    },
+    "Link; reset calendar keys modal": {
+      "What's a recovery method?": [
+        "Wat is een herstelmethode?"
       ]
     },
     "Loading info": {
@@ -5215,9 +5277,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } is uit de bèta! Geef uw bestanden dezelfde beveiliging als uw e-mails."
-      ],
       "Easily accept invites": [
         "Accepteer eenvoudig uitnodigingen"
       ],
@@ -5232,9 +5291,6 @@
       ],
       "Subscribe to other calendars": [
         "Abonneer op andere agenda's"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Probeer ${ DRIVE_APP_NAME }"
       ],
       "You can subscribe to external calendars and read their events.": [
         "U kunt zich abonneren op externe agenda's en de bijbehorende gebeurtenissen lezen."
@@ -5665,6 +5721,9 @@
       "Email settings": [
         "E-mailinstellingen"
       ],
+      "Encrypted event": [
+        "Versleutelde afspraak"
+      ],
       "Enter your password": [
         "Voer uw wachtwoord in"
       ],
@@ -5771,8 +5830,8 @@
       "Request new code": [
         "Nieuwe code aanvragen"
       ],
-      "Reset calendar keys": [
-        "Agendasleutels resetten"
+      "Reshare your calendars": [
+        "Uw agenda's opnieuw delen"
       ],
       "Save changes": [
         "Aanpassingen opslaan"
@@ -5876,6 +5935,12 @@
       "Warning: suspected fake website": [
         "Waarschuwing: vermoedelijk valse website"
       ],
+      "We've locked some calendars to protect your data": [
+        "We hebben sommige agenda's vergrendeld om uw data te beschermen"
+      ],
+      "We've locked your calendars to protect your data": [
+        "We hebben uw agenda's vergrendeld om uw data te beschermen"
+      ],
       "What would you like to import?": [
         "Wat zou u willen importeren?"
       ],
@@ -5887,6 +5952,9 @@
       ],
       "Your calendar link": [
         "Uw agendakoppeling"
+      ],
+      "Your Mail Plus free trial ends on ${ textDate }": [
+        "Uw Mail Plus proefversie eindigt op ${ textDate }."
       ]
     },
     "Title (number of minutes/hours/days/weeks)": {

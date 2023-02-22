@@ -63,6 +63,7 @@ interface Props {
     elementID?: string;
     messageID?: string;
     isComposerOpened: boolean;
+    toolbarBordered?: boolean;
 }
 
 const MailboxContainer = ({
@@ -73,6 +74,7 @@ const MailboxContainer = ({
     elementID,
     messageID,
     isComposerOpened,
+    toolbarBordered,
 }: Props) => {
     const location = useLocation();
     const history = useHistory();
@@ -325,6 +327,7 @@ const MailboxContainer = ({
                             onDelete={handleDelete}
                             labelDropdownToggleRef={labelDropdownToggleRef}
                             moveDropdownToggleRef={moveDropdownToggleRef}
+                            bordered={toolbarBordered}
                         />
                     </ErrorBoundary>
                 )}
@@ -402,11 +405,16 @@ const MailboxContainer = ({
                                         columnLayout={columnLayout}
                                         isComposerOpened={isComposerOpened}
                                         containerRef={messageContainerRef}
+                                        elementIDs={elementIDs}
+                                        loadingElements={loading}
+                                        conversationMode={conversationMode}
                                     />
                                 ) : (
                                     <MessageOnlyView
                                         hidden={showPlaceholder}
                                         labelID={labelID}
+                                        elementIDs={elementIDs}
+                                        loadingElements={loading}
                                         mailSettings={mailSettings}
                                         messageID={elementID as string}
                                         onBack={handleBack}

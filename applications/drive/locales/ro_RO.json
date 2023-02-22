@@ -375,6 +375,9 @@
       "Move to trash": [
         "Mutare în «Gunoi»"
       ],
+      "New": [
+        "Nou"
+      ],
       "New upload": [
         "Încărcare nouă"
       ],
@@ -1921,6 +1924,9 @@
       "Contact could not be saved": [
         "Contactul nu a putut fi salvat"
       ],
+      "Contact name is too long": [
+        "Numele de contact este prea lung."
+      ],
       "Contact signature not verified": [
         "Semnătura contactului nu a fost verificată"
       ],
@@ -2155,7 +2161,7 @@
       "This label name is not available. Please choose a different name.": [
         "Acest nume de etichetă nu este disponibil. Alegeți un alt nume."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "Acest mesaj poate conține unele legături care nu pot fi deschise corect de navigatorul actual."
       ],
       "Try using only letters, numerals, and _.-": [
@@ -2167,8 +2173,8 @@
       "You can't send a mail to more than 100 recipients": [
         "Nu puteți trimite un e-mail la mai mult de 100 de destinatari"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "Nu puteți trimite cărți de vizită („vCard”) la mai mult de 10 persoane de contact."
+      "You can't send vCard files of more than 10 contacts": [
+        "Nu puteți trimite fișiere vCard pentru mai mult de 10 contacte."
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
         "Nu se pot crea calendare noi pentru toate calendarele importate din cauza limitei de calendare personale."
@@ -2957,6 +2963,9 @@
         "${ selectedCalendarsTotal } din ${ providerCalendars.length } calendare",
         "${ selectedCalendarsTotal } din ${ providerCalendars.length } de calendare"
       ],
+      "${ selectedCount } selected": [
+        "Selectate: ${ selectedCount }"
+      ],
       "${ selectedFoldersCount } folder selected": [
         "S-a selectat un folder",
         "S-au selectat ${ selectedFoldersCount } foldere",
@@ -3057,9 +3066,6 @@
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "Înainte de a solicita un cod nou de verificare, verificați-vă folderul de mesaje nedorite și verificați dacă ${ strong } este adresa corectă."
       ],
-      "Bulk uploads may reduce your computer’s performance. Consider limiting memory-intensive activities like streaming during upload. Or try uploading in batches.": [
-        "Încărcările în masă pot reduce performanța computerului. Luați în considerare limitarea activităților cu consum de memorie, cum ar fi redarea transmisiilor în flux în timpul încărcării. Sau încercați să încărcați în mai multe loturi."
-      ],
       "Calendar side panel": [
         "Panou lateral calendar"
       ],
@@ -3098,6 +3104,9 @@
       ],
       "Continue using ${ DRIVE_APP_NAME } and unlock drive later": [
         "Continuare utilizare ${ DRIVE_APP_NAME } și deblocare unitate mai târziu"
+      ],
+      "Country code": [
+        "Cod țară"
       ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Creare un calendar",
@@ -3263,6 +3272,9 @@
       ],
       "Folders you sync from your computer will appear here.": [
         "Folderele sincronizate de pe calculator vor apărea aici."
+      ],
+      "For best results, avoid streaming and memory-intensive activities or split your upload into smaller batches.": [
+        "Pentru cele mai bune rezultate, evitați activitățile de redare în flux și cele care necesită multă memorie sau împărțiți încărcarea în mai puține fișiere."
       ],
       "Free up some space or add more storage space.": [
         "Eliberați ceva spațiu sau mai adăugați spațiu de stocare."
@@ -3600,6 +3612,9 @@
       "Shared link failed to be loaded": [
         "Legătura de partajare nu a putut fi încărcată."
       ],
+      "Signature cannot be validated due to network error, please try again later.": [
+        "Semnătura nu poate fi validată din cauza unei erori de rețea. Reîncercați mai târziu."
+      ],
       "Signature check will be ignored": [
         "Verificarea semnăturii va fi ignorată"
       ],
@@ -3632,6 +3647,9 @@
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
         "Aplicația trebuie să decripteze local contactele înainte de a putea fi exportate. La sfârșitul procesului, va fi generat un fișier VCF pe care îl veți putea descărca."
+      ],
+      "The encrypted data is slightly larger due to the overhead of the encryption and signatures, which ensure the security of your data.": [
+        "Datele criptate ocupă puțin mai mult spațiu datorită criptării și a semnăturilor, ceea ce asigură securitatea acestora."
       ],
       "The following may have been tampered with: ${ items }. Only open if you trust it.": [
         "Este posibil ca următoarele elemente să fi fost falsificate: ${ items }. Deschideți-l numai dacă aveți încredere în el."
@@ -3931,8 +3949,8 @@
       ]
     },
     "Label": {
-      "# of accesses": [
-        "Nr. de accesări"
+      "# of downloads": [
+        "Descărcări"
       ],
       "${ BRAND_NAME } username": [
         "Nnume de utilizator ${ BRAND_NAME }"
@@ -4005,6 +4023,9 @@
       ],
       "Code is 6 digits without spaces": [
         "Codul este format din 6 cifre fără spații"
+      ],
+      "Colors": [
+        "Culori"
       ],
       "Coming soon": [
         "În curând"
@@ -4686,9 +4707,6 @@
       "File or folder is missing a name": [
         "Fișier sau folder fără nume."
       ],
-      "Item failed to be verified": [
-        "Elementul nu a putut fi verificat."
-      ],
       "Link failed to be loaded": [
         "Legătura nu s-a putut încărca."
       ],
@@ -5024,9 +5042,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } nu mai este în stadiu beta! Oferiți fișierelor aceeași securitate pe care o primesc și e-mailurile."
-      ],
       "Encrypted search is here": [
         "Căutarea criptată este aici"
       ],
@@ -5038,9 +5053,6 @@
       ],
       "Now you can easily search Drive files while keeping your data secure.": [
         "Acum puteți căuta cu ușurință fișierele din unitate, păstrând în același timp datele în siguranță."
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Încercați ${ DRIVE_APP_NAME }"
       ]
     },
     "Storage": {
@@ -5216,8 +5228,8 @@
       ]
     },
     "Title": {
-      "# of accesses": [
-        "Nr. de accesări"
+      "# of downloads": [
+        "Descărcări"
       ],
       "${ emailsCount } member": [
         "Un membru",
@@ -5522,6 +5534,9 @@
       "Open settings menu": [
         "Deschidere meniu setări"
       ],
+      "Original size": [
+        "Dimensiune originală"
+      ],
       "Other information": [
         "Alte informații"
       ],
@@ -5671,6 +5686,9 @@
       ],
       "Uploaded by": [
         "Încărcat de"
+      ],
+      "Uploading a large file or folder": [
+        "Se încarcă un fișier sau folder mare"
       ],
       "View contacts": [
         "Afișare contacte"

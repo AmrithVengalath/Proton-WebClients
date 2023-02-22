@@ -373,6 +373,9 @@
       "Move to trash": [
         "Déplacer dans le dossier Corbeille"
       ],
+      "New": [
+        "Nouveau"
+      ],
       "New upload": [
         "Importer"
       ],
@@ -602,7 +605,7 @@
         "Changer d'abonnement"
       ],
       "Upgrade now": [
-        "Passer à l'abonnement supérieur"
+        "Changer d'abonnement"
       ],
       "Upload anyway": [
         "Charger quand même"
@@ -1918,6 +1921,9 @@
       "Contact could not be saved": [
         "Le contact n’a pas pu être enregistré."
       ],
+      "Contact name is too long": [
+        "Le nom du contact est trop long."
+      ],
       "Contact signature not verified": [
         "La signature du contact n'a pas été vérifiée."
       ],
@@ -2146,7 +2152,7 @@
       "This label name is not available. Please choose a different name.": [
         "Ce nom de label n'est pas disponible, veuillez en choisir un autre."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "Ce message contient peut-être des liens URL qui pourraient ne pas s'ouvrir correctement avec votre navigateur."
       ],
       "Try using only letters, numerals, and _.-": [
@@ -2158,8 +2164,8 @@
       "You can't send a mail to more than 100 recipients": [
         "Vous ne pouvez pas envoyer d’e-mail à plus de 100 destinataires."
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "Vous ne pouvez pas envoyer de vCards de plus de 10 contacts."
+      "You can't send vCard files of more than 10 contacts": [
+        "Vous ne pouvez pas envoyer de vCards de plus de 10 contacts."
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
         "Vous avez atteint le nombre maximum de calendriers personnels. Certains calendriers n'ont pas pu être importés."
@@ -2912,6 +2918,9 @@
         "${ selectedCalendarsTotal } calendrier sur ${ providerCalendars.length }",
         "${ selectedCalendarsTotal } calendriers sur ${ providerCalendars.length }"
       ],
+      "${ selectedCount } selected": [
+        "${ selectedCount } sélectionné(s)"
+      ],
       "${ selectedFoldersCount } folder selected": [
         "${ selectedFoldersCount } dossier sélectionné",
         "${ selectedFoldersCount } dossiers sélectionnés"
@@ -3004,9 +3013,6 @@
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "Avant de demander un nouveau code de vérification, nous vous recommandons de vérifier votre dossier indésirables/spam et de vous assurer que l'adresse ${ strong } est correcte."
       ],
-      "Bulk uploads may reduce your computer’s performance. Consider limiting memory-intensive activities like streaming during upload. Or try uploading in batches.": [
-        "Les chargements en masse peuvent réduire les performances de votre ordinateur. Pendant le chargement, envisagez de limiter les activités gourmandes en mémoire comme le streaming. Vous pouvez aussi essayer de charger par lots."
-      ],
       "Calendar side panel": [
         "Panneau latéral du calendrier"
       ],
@@ -3045,6 +3051,9 @@
       ],
       "Continue using ${ DRIVE_APP_NAME } and unlock drive later": [
         "Continuer à utiliser ${ DRIVE_APP_NAME } et déverrouiller le disque plus tard"
+      ],
+      "Country code": [
+        "Indicatif du pays"
       ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Créer ${ calendarsToBeCreated } nouveau calendrier",
@@ -3207,6 +3216,9 @@
       ],
       "Folders you sync from your computer will appear here.": [
         "Les dossiers que vous synchronisez depuis votre ordinateur apparaissent ici."
+      ],
+      "For best results, avoid streaming and memory-intensive activities or split your upload into smaller batches.": [
+        "Pour de meilleurs résultats, évitez les activités de streaming et gourmandes en mémoire ou réduisez la taille de votre envoi."
       ],
       "Free up some space or add more storage space.": [
         "Libérez de l’espace ou ajoutez plus d’espace de stockage."
@@ -3541,6 +3553,9 @@
       "Shared link failed to be loaded": [
         "Le lien partagé n'a pas pu être chargé."
       ],
+      "Signature cannot be validated due to network error, please try again later.": [
+        "La signature ne peut pas être certifiée en raison d'une erreur de réseau, nous vous invitons à réessayer plus tard."
+      ],
       "Signature check will be ignored": [
         "La vérification de signature sera ignorée."
       ],
@@ -3573,6 +3588,9 @@
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
         "Nous devons déchiffrer vos contacts localement avant de pouvoir les exporter. À la fin du processus, un fichier VCF sera généré et vous pourrez le télécharger."
+      ],
+      "The encrypted data is slightly larger due to the overhead of the encryption and signatures, which ensure the security of your data.": [
+        "Les données chiffrées sont légèrement plus volumineuses en raison du chiffrement et des signatures, qui garantissent la sécurité de vos données."
       ],
       "The following may have been tampered with: ${ items }. Only open if you trust it.": [
         "Les éléments suivants ont peut-être été falsifiés : ${ items }. N'ouvrez que si vous avez confiance."
@@ -3681,7 +3699,7 @@
         "Actualisation de la recherche dans Drive..."
       ],
       "Upgrade now to get premium features, products and storage at a special price": [
-        "Changez d'offre maintenant pour bénéficier des fonctionnalités, produits et espaces de stockage Premium à un tarif spécial"
+        "Passez à la version supérieure pour bénéficier de fonctions, de produits et d'un espace de stockage premium à un tarif avantageux"
       ],
       "Uploaded": [
         "Importé"
@@ -3871,8 +3889,8 @@
       ]
     },
     "Label": {
-      "# of accesses": [
-        "Nombre d'accès"
+      "# of downloads": [
+        "# de téléchargements"
       ],
       "${ BRAND_NAME } username": [
         "Nom d'utilisateur ${ BRAND_NAME }"
@@ -3945,6 +3963,9 @@
       ],
       "Code is 6 digits without spaces": [
         "Le code est composé de 6 chiffres sans espaces."
+      ],
+      "Colors": [
+        "Couleurs"
       ],
       "Coming soon": [
         "Bientôt disponible"
@@ -4609,9 +4630,6 @@
       "File or folder is missing a name": [
         "Il manque un nom au fichier ou au dossier."
       ],
-      "Item failed to be verified": [
-        "L'élément n'a pas pu être vérifié."
-      ],
       "Link failed to be loaded": [
         "Le lien n'a pas pu être chargé."
       ],
@@ -5172,9 +5190,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } n'est plus en version beta. Offrez à vos fichiers la même sécurité que celle dont bénéficient vos e-mails."
-      ],
       "Encrypted search is here": [
         "La recherche chiffrée se trouve ici."
       ],
@@ -5186,9 +5201,6 @@
       ],
       "Now you can easily search Drive files while keeping your data secure.": [
         "Vous pouvez maintenant facilement rechercher des fichiers Drive tout en gardant vos données en sécurité."
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Essayez ${ DRIVE_APP_NAME }"
       ]
     },
     "Storage": {
@@ -5355,8 +5367,8 @@
       ]
     },
     "Title": {
-      "# of accesses": [
-        "Nombre d'accès"
+      "# of downloads": [
+        "# de téléchargements"
       ],
       "${ emailsCount } member": [
         "${ emailsCount } membre",
@@ -5652,6 +5664,9 @@
       "Open settings menu": [
         "Ouvrir le menu des paramètres"
       ],
+      "Original size": [
+        "Taille d'origine"
+      ],
       "Other information": [
         "Autres informations"
       ],
@@ -5802,6 +5817,9 @@
       "Uploaded by": [
         "Chargé par"
       ],
+      "Uploading a large file or folder": [
+        "Chargement d'un fichier ou d'un dossier volumineux"
+      ],
       "View contacts": [
         "Afficher les contacts"
       ],
@@ -5836,7 +5854,7 @@
         "Vos modifications ne sont pas encore synchronisées."
       ],
       "Your Mail Plus free trial ends on ${ textDate }": [
-        "Votre essai gratuit Mail Plus finit le ${ textDate }"
+        "Votre essai gratuit Mail Plus se termine le ${ textDate }."
       ],
       "Your welcome actions": [
         "Vos actions de bienvenue"

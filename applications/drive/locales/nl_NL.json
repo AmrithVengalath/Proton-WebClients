@@ -373,6 +373,9 @@
       "Move to trash": [
         "Naar prullenbak verplaatsen"
       ],
+      "New": [
+        "Nieuw"
+      ],
       "New upload": [
         "Nieuwe upload"
       ],
@@ -1918,6 +1921,9 @@
       "Contact could not be saved": [
         "Contact kan niet opgeslagen worden"
       ],
+      "Contact name is too long": [
+        "Naam van contact is te lang"
+      ],
       "Contact signature not verified": [
         "Handtekening van contact niet geverifieerd"
       ],
@@ -2146,7 +2152,7 @@
       "This label name is not available. Please choose a different name.": [
         "Deze labelnaam is niet beschikbaar. Kies een andere naam."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "Dit bericht kan koppelingen bevatten die niet op de juiste wijze geopend kunnen worden door uw huidige browser."
       ],
       "Try using only letters, numerals, and _.-": [
@@ -2158,8 +2164,8 @@
       "You can't send a mail to more than 100 recipients": [
         "U kunt geen e-mail verzenden naar meer dan 100 ontvangers"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "U kunt geen vCards van meer dan 10 contacten verzenden"
+      "You can't send vCard files of more than 10 contacts": [
+        "U kunt geen vCard-bestand met meer dan 10 contacten verzenden"
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
         "U heeft het maximale aantal persoonlijke agenda's bereikt. Sommige agenda's konden niet worden geïmporteerd."
@@ -2912,6 +2918,9 @@
         "${ selectedCalendarsTotal } van ${ providerCalendars.length } agenda",
         "${ selectedCalendarsTotal } van ${ providerCalendars.length } agenda's"
       ],
+      "${ selectedCount } selected": [
+        "${ selectedCount } geselecteerd"
+      ],
       "${ selectedFoldersCount } folder selected": [
         "${ selectedFoldersCount } map geselecteerd",
         "${ selectedFoldersCount } mappen geselecteerd"
@@ -2965,6 +2974,9 @@
       "All your changes will be lost.": [
         "Alle wijzigingen gaan verloren."
       ],
+      "Also try looking in Trash.": [
+        "Probeer ook eens te zoeken in de Prullenbak."
+      ],
       "An active recovery file": [
         "Een actief herstelbestand"
       ],
@@ -3001,8 +3013,8 @@
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "Controleer uw spammap en of ${ strong } het correcte e-mailadres is voordat u een nieuwe verificatiecode aanvraagt."
       ],
-      "Bulk uploads may reduce your computer’s performance. Consider limiting memory-intensive activities like streaming during upload. Or try uploading in batches.": [
-        "Massa-uploads verminderen mogelijk de prestaties van uw computer. Overweeg om geheugenintensieve activiteiten zoals streaming te beperken tijdens het uploaden of probeer in te uploaden in partijen."
+      "Calendar side panel": [
+        "Agenda zijpaneel"
       ],
       "Canceled": [
         "Geannuleerd"
@@ -3039,6 +3051,9 @@
       ],
       "Continue using ${ DRIVE_APP_NAME } and unlock drive later": [
         "Blijf ${ DRIVE_APP_NAME } gebruiken en ontgrendel de schijf later"
+      ],
+      "Country code": [
+        "Landcode"
       ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Maak één nieuwe agenda",
@@ -3201,6 +3216,9 @@
       ],
       "Folders you sync from your computer will appear here.": [
         "Mappen die u synchroniseert vanaf uw computer zullen hier verschijnen."
+      ],
+      "For best results, avoid streaming and memory-intensive activities or split your upload into smaller batches.": [
+        "Vermijd streaming en andere geheugenintensieve activiteiten of splits je upload op in kleinere delen voor het beste resultaat."
       ],
       "Free up some space or add more storage space.": [
         "Maak ruimte vrij of voeg meer opslagruimte toe."
@@ -3399,7 +3417,7 @@
         "Niet alle bestanden zijn overgeplaatst. Probeer de bestanden opnieuw te up- of downloaden."
       ],
       "Note: data may still be available locally on devices where you have installed ${ DRIVE_APP_NAME }.": [
-        "Opmerking: Gegevens kunnen nog steeds lokaal beschikbaar zijn op apparaten waarop u ${ DRIVE_APP_NAME } hebt geïnstalleerd."
+        "Opmerking: gegevens kunnen nog steeds lokaal beschikbaar zijn op apparaten waarop u ${ DRIVE_APP_NAME } hebt geïnstalleerd."
       ],
       "of": [
         "van"
@@ -3535,6 +3553,9 @@
       "Shared link failed to be loaded": [
         "De gedeelde link kon niet worden geladen"
       ],
+      "Signature cannot be validated due to network error, please try again later.": [
+        "Handtekening kan niet gecontroleerd worden door een netwerk fout, probeer het later opnieuw."
+      ],
       "Signature check will be ignored": [
         "Handtekeningcontrole zal genegeerd worden"
       ],
@@ -3567,6 +3588,9 @@
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
         "De applicatie moet uw contacten lokaal decoderen voordat ze kunnen worden geëxporteerd. Aan het einde van het proces zal een VCF-bestand worden gegenereerd en kan u het downloaden."
+      ],
+      "The encrypted data is slightly larger due to the overhead of the encryption and signatures, which ensure the security of your data.": [
+        "De versleutelde gegevens zijn iets groter door de extra gegevens voor de versleuteling en de handtekening, die de beveiliging van uw gegevens garanderen."
       ],
       "The following may have been tampered with: ${ items }. Only open if you trust it.": [
         "Het volgende werd mogelijk onrechtmatig bewerkt: ${ items }. Open alleen als u het vertrouwt."
@@ -3620,6 +3644,9 @@
       "This will remove from ${ DRIVE_APP_NAME } the synced device ${ deviceName }. Local files on\nthe device won’t be affected.": [
         "This will remove from ${ DRIVE_APP_NAME } the synced device ${ deviceName }. Local files on the device won’t be affected."
       ],
+      "To enable truly private search ${ DRIVE_APP_NAME } needs to index your files locally.": [
+        "Om echt privé zoeken in te schakelen moet ${ DRIVE_APP_NAME } uw bestanden lokaal indexeren."
+      ],
       "To enable truly private search, we need to index your files locally. You can still use ${ DRIVE_APP_NAME } normally - we’ll let you know when indexing is done.": [
         "Om echt privé zoeken in te schakelen, moeten we uw bestanden lokaal indexeren. U kan ${ DRIVE_APP_NAME } normaal blijven gebruiken - we laten u weten wanneer het indexeren klaar is."
       ],
@@ -3653,6 +3680,9 @@
       "Trash": [
         "Prullenbak"
       ],
+      "Try searching by file name, date, or type.": [
+        "Zoek ook op bestandsnaam, datum of type."
+      ],
       "Unknown error": [
         "Onbekende fout"
       ],
@@ -3667,6 +3697,9 @@
       ],
       "Updating drive search...": [
         "Drive doorzoeken updaten..."
+      ],
+      "Upgrade now to get premium features, products and storage at a special price": [
+        "Upgrade nu om alle premium functionaliteiten, producten en opslag te krijgen voor een speciale prijs"
       ],
       "Uploaded": [
         "Geüpload"
@@ -3816,6 +3849,12 @@
       "file data key": [
         "bestandsgegevenssleutel"
       ],
+      "file data order": [
+        "bestandsgegevens volgorde"
+      ],
+      "hash key": [
+        "hash sleutel"
+      ],
       "keys": [
         "sleutels"
       ],
@@ -3850,8 +3889,8 @@
       ]
     },
     "Label": {
-      "# of accesses": [
-        "Aantal weergaven"
+      "# of downloads": [
+        "# downloads"
       ],
       "${ BRAND_NAME } username": [
         "${ BRAND_NAME } gebruikersnaam"
@@ -3924,6 +3963,9 @@
       ],
       "Code is 6 digits without spaces": [
         "Code is 6 cijfers zonder spaties"
+      ],
+      "Colors": [
+        "Kleuren"
       ],
       "Coming soon": [
         "Binnenkort beschikbaar"
@@ -4588,9 +4630,6 @@
       "File or folder is missing a name": [
         "Bestand of map heeft geen naam"
       ],
-      "Item failed to be verified": [
-        "Item kon niet worden geverifieerd"
-      ],
       "Link failed to be loaded": [
         "Link kon niet geladen worden"
       ],
@@ -5139,9 +5178,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } is uit de bèta! Geef uw bestanden dezelfde beveiliging als uw e-mails."
-      ],
       "Encrypted search is here": [
         "Versleuteld zoeken is hier"
       ],
@@ -5153,9 +5189,6 @@
       ],
       "Now you can easily search Drive files while keeping your data secure.": [
         "U kan nu eenvoudig Drive-bestanden zoeken terwijl u uw gegevens veilig houdt."
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Probeer ${ DRIVE_APP_NAME }"
       ]
     },
     "Storage": {
@@ -5322,8 +5355,8 @@
       ]
     },
     "Title": {
-      "# of accesses": [
-        "Aantal weergaven"
+      "# of downloads": [
+        "# downloads"
       ],
       "${ emailsCount } member": [
         "${ emailsCount } lid",
@@ -5598,6 +5631,9 @@
       "Name": [
         "Naam"
       ],
+      "No results found": [
+        "Geen resultaten"
+      ],
       "Number of files": [
         "Aantal bestanden"
       ],
@@ -5615,6 +5651,9 @@
       ],
       "Open settings menu": [
         "Open instellingenmenu"
+      ],
+      "Original size": [
+        "Originele grootte"
       ],
       "Other information": [
         "Andere informatie"
@@ -5766,6 +5805,9 @@
       "Uploaded by": [
         "Geüpload door"
       ],
+      "Uploading a large file or folder": [
+        "Groot bestand of map aan het uploaden"
+      ],
       "View contacts": [
         "Contacten weergeven"
       ],
@@ -5798,6 +5840,9 @@
       ],
       "Your changes are not synced yet": [
         "Uw wijzigingen zijn nog niet gesynchroniseerd"
+      ],
+      "Your Mail Plus free trial ends on ${ textDate }": [
+        "Uw Mail Plus proefversie eindigt op ${ textDate }."
       ],
       "Your welcome actions": [
         "Uw welkomstacties"

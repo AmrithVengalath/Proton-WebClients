@@ -1959,6 +1959,9 @@
       "Continue anyway?": [
         "Yine de ilerlemek istiyor musunuz?"
       ],
+      "Country code": [
+        "Ülke kodu"
+      ],
       "Creating your account": [
         "Hesabınız oluşturuluyor"
       ],
@@ -3307,7 +3310,7 @@
         "HTML imzalar"
       ],
       "Kill switch/always-on VPN": [
-        "Kill Switch / Her zaman açık VPN"
+        "Kill Switch / Hep açık VPN"
       ],
       "Limited support": [
         "Sınırlı destek"
@@ -3990,17 +3993,11 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } beta yayınlandı! Dosyalarınıza da e-postalarınızdaki güvenliği sağlayın."
-      ],
       "Get up to ${ credits } in credits.": [
         "${ credits } tutarına kadar kredi kazanın."
       ],
       "Invite friends to ${ BRAND_NAME }": [
         "Arkadaşlarınızı ${ BRAND_NAME } üzerine çağırın"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "${ DRIVE_APP_NAME } uygulamasını deneyin"
       ]
     },
     "State": {

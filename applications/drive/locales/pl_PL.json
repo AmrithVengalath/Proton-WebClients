@@ -377,6 +377,9 @@
       "Move to trash": [
         "Przenieś do Kosza"
       ],
+      "New": [
+        "Nowy"
+      ],
       "New upload": [
         "Prześlij"
       ],
@@ -1849,7 +1852,7 @@
         "Wydarzenie ${ eventTitle } zostało zaktualizowane.\n${ eventDetailsText }"
       ],
       "You are invited to ${ eventTitle }\n${ eventDetailsText }": [
-        "Zaproszenie do wydarzenia ${ eventTitle }\n${ eventDetailsText }"
+        "Zaproszenie na wydarzenie ${ eventTitle }\n${ eventDetailsText }"
       ]
     },
     "Email body for invitation (date part)": {
@@ -1870,13 +1873,13 @@
     },
     "Email body for response to invitation": {
       "${ emailAddress } has accepted your invitation to ${ eventTitle }": [
-        "Uczestnik ${ emailAddress } zaakceptował zaproszenie do wydarzenia ${ eventTitle }"
+        "Uczestnik ${ emailAddress } zaakceptował zaproszenie na wydarzenie ${ eventTitle }"
       ],
       "${ emailAddress } has declined your invitation to ${ eventTitle }": [
-        "Uczestnik ${ emailAddress } odrzucił zaproszenie do wydarzenia ${ eventTitle }"
+        "Uczestnik ${ emailAddress } odrzucił zaproszenie na wydarzenie ${ eventTitle }"
       ],
       "${ emailAddress } has tentatively accepted your invitation to ${ eventTitle }": [
-        "Uczestnik ${ emailAddress } wstępnie zaakceptował zaproszenie do wydarzenia ${ eventTitle }"
+        "Uczestnik ${ emailAddress } wstępnie zaakceptował zaproszenie na wydarzenie ${ eventTitle }"
       ]
     },
     "Email subject": {
@@ -1887,10 +1890,10 @@
         "Anulowanie wydarzenia rozpoczynającego się w dniu: ${ formattedStart }"
       ],
       "Invitation for an event on ${ formattedStart }": [
-        "Zaproszenie do wydarzenia w dniu: ${ formattedStart }"
+        "Zaproszenie na wydarzenie w dniu: ${ formattedStart }"
       ],
       "Invitation for an event starting on ${ formattedStart }": [
-        "Zaproszenie do wydarzenia rozpoczynającego się w dniu: ${ formattedStart }"
+        "Zaproszenie na wydarzenie rozpoczynające się w dniu: ${ formattedStart }"
       ],
       "Update for an event on ${ formattedStart }": [
         "Aktualizacja wydarzenia w dniu: ${ formattedStart }"
@@ -1923,6 +1926,9 @@
       ],
       "Contact could not be saved": [
         "Kontakt nie mógł zostać zapisany"
+      ],
+      "Contact name is too long": [
+        "Nazwa kontaktu jest zbyt długa"
       ],
       "Contact signature not verified": [
         "Podpis kontaktu nie został zweryfikowany"
@@ -2164,7 +2170,7 @@
       "This label name is not available. Please choose a different name.": [
         "Nazwa etykiety nie jest dostępna. Wpisz inną nazwę."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "Ta wiadomość może zawierać adresy URL, które nie mogą być poprawnie otwarte przez obecną przeglądarkę."
       ],
       "Try using only letters, numerals, and _.-": [
@@ -2176,7 +2182,7 @@
       "You can't send a mail to more than 100 recipients": [
         "Nie możesz wysłać wiadomości do ponad 100 odbiorców"
       ],
-      "You can't send vCards of more than 10 contacts": [
+      "You can't send vCard files of more than 10 contacts": [
         "Jednocześnie możesz wysłać maksymalnie 10 plików vCard"
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
@@ -2635,10 +2641,10 @@
         "Zaimportowane zaproszenia pojawiają się w ${ CALENDAR_APP_NAME } jako zwykłe wydarzenia bez szczegółów organizatora i uczestników. Aby otrzymywać aktualizacje wydarzeń i zobaczyć listę uczestników, poproś organizatorów o zaproszenie, używając swojego adresu e-mail ${ BRAND_NAME }."
       ],
       "This file contains an event invitation:": [
-        "Plik zawiera zaproszenie do wydarzenia:",
-        "Plik zawiera zaproszenia do wydarzeń:",
-        "Plik zawiera zaproszenia do wydarzeń:",
-        "Plik zawiera zaproszenia do wydarzeń:"
+        "Plik zawiera zaproszenie na wydarzenie:",
+        "Plik zawiera zaproszenia na wydarzenia:",
+        "Plik zawiera zaproszenia na wydarzenia:",
+        "Plik zawiera zaproszenia na wydarzenia:"
       ],
       "This file contains an invitation response:": [
         "Plik zawiera odpowiedź na zaproszenie:",
@@ -3118,9 +3124,6 @@
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "Przed poproszeniem o nowy kod weryfikacyjny, sprawdź folder Spam i poprawność adresu ${ strong }."
       ],
-      "Bulk uploads may reduce your computer’s performance. Consider limiting memory-intensive activities like streaming during upload. Or try uploading in batches.": [
-        "Masowe przesyłanie może zmniejszyć wydajność komputera. Rozważ ograniczenie aktywności wymagających dużej ilości pamięci (jak streaming) lub prześlij dane partiami."
-      ],
       "Calendar side panel": [
         "Panel boczny kalendarza"
       ],
@@ -3159,6 +3162,9 @@
       ],
       "Continue using ${ DRIVE_APP_NAME } and unlock drive later": [
         "Kontynuuj używanie ${ DRIVE_APP_NAME } i odblokuj dysk później"
+      ],
+      "Country code": [
+        "Kod kraju"
       ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Utwórz ${ calendarsToBeCreated } nowy kalendarz",
@@ -3327,6 +3333,9 @@
       ],
       "Folders you sync from your computer will appear here.": [
         "Tutaj pojawią się foldery zsynchronizowane z urządzeniem."
+      ],
+      "For best results, avoid streaming and memory-intensive activities or split your upload into smaller batches.": [
+        "Ogranicz aktywność wymagającą dużej ilości pamięci (jak streaming) lub prześlij dane partiami."
       ],
       "Free up some space or add more storage space.": [
         "Zwolnij część miejsca lub dodaj dodatkową przestrzeń dyskową."
@@ -3667,6 +3676,9 @@
       "Shared link failed to be loaded": [
         "Załadowanie linku nie powiodło się"
       ],
+      "Signature cannot be validated due to network error, please try again later.": [
+        "Podpis nie może zostać zweryfikowany z powodu błędu sieci. Spróbuj ponownie później."
+      ],
       "Signature check will be ignored": [
         "Sprawdzanie podpisu zostanie pominięte"
       ],
@@ -3699,6 +3711,9 @@
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
         "Zanim kontakty będą mogły zostać wyeksportowane, aplikacja musi je lokalnie odszyfrować. Pod koniec procesu zostanie wygenerowany plik VCF do pobrania."
+      ],
+      "The encrypted data is slightly larger due to the overhead of the encryption and signatures, which ensure the security of your data.": [
+        "Zaszyfrowane dane zajmują więcej miejsca ze względu na proces szyfrowania oraz podpisy zapewniające bezpieczeństwo danych."
       ],
       "The following may have been tampered with: ${ items }. Only open if you trust it.": [
         "Poniższe elementy mogły zostać naruszone: ${ items }. Otwórz te elementy tylko wtedy, kiedy masz do nich zaufanie."
@@ -3999,8 +4014,8 @@
       ]
     },
     "Label": {
-      "# of accesses": [
-        "Liczba dostępów"
+      "# of downloads": [
+        "Liczba pobrań"
       ],
       "${ BRAND_NAME } username": [
         "Nazwa użytkownika ${ BRAND_NAME }"
@@ -4073,6 +4088,9 @@
       ],
       "Code is 6 digits without spaces": [
         "Kod to 6 cyfr bez spacji"
+      ],
+      "Colors": [
+        "Kolory"
       ],
       "Coming soon": [
         "Wkrótce"
@@ -4771,9 +4789,6 @@
       "File or folder is missing a name": [
         "Plik lub folder nie posiada nazwy"
       ],
-      "Item failed to be verified": [
-        "Weryfikacja elementu nie powiodła się"
-      ],
       "Link failed to be loaded": [
         "Załadowanie linku nie powiodło się"
       ],
@@ -5369,9 +5384,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "Dysk ${ DRIVE_APP_NAME } wyszedł z wersji beta! Zapewnij swoim plikom takie samo bezpieczeństwo, jak poczcie e-mail."
-      ],
       "Encrypted search is here": [
         "Wyszukiwanie zawartości jest tutaj"
       ],
@@ -5383,9 +5395,6 @@
       ],
       "Now you can easily search Drive files while keeping your data secure.": [
         "Możesz łatwo wyszukiwać pliki, zachowując bezpieczeństwo danych."
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Wypróbuj ${ DRIVE_APP_NAME }"
       ]
     },
     "Storage": {
@@ -5570,8 +5579,8 @@
       ]
     },
     "Title": {
-      "# of accesses": [
-        "Liczba dostępów"
+      "# of downloads": [
+        "Liczba pobrań"
       ],
       "${ emailsCount } member": [
         "${ emailsCount } członek",
@@ -5885,6 +5894,9 @@
       "Open settings menu": [
         "Otwórz ustawienia"
       ],
+      "Original size": [
+        "Rozmiar oryginalny"
+      ],
       "Other information": [
         "Inne informacje"
       ],
@@ -6034,6 +6046,9 @@
       ],
       "Uploaded by": [
         "Przesłany przez"
+      ],
+      "Uploading a large file or folder": [
+        "Przesyłanie większego pliku lub folderu"
       ],
       "View contacts": [
         "Pokaż kontakty"

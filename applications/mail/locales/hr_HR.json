@@ -713,9 +713,6 @@
       "Schedule message": [
         "Zakaži poruku"
       ],
-      "Schedule send": [
-        "Zakaži slanje"
-      ],
       "Search": [
         "Pretraga"
       ],
@@ -2647,9 +2644,6 @@
       "This message has already been sent": [
         "Ova poruka je već poslana."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "Ova poruka može sadržavati URL poveznice koje trenutačni preglednik ne može ispravno otvoriti."
-      ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters.": [
         "Previše aktivnih filtara. Nadogradite na plaćeni plan da aktivirate više filtara."
       ],
@@ -2667,9 +2661,6 @@
       ],
       "You can't send a mail to more than 100 recipients": [
         "Ne možete poslati e-poštu za više od 100 primatelja"
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Ne možete slati vCards za više od 10 kontakata"
       ],
       "You did not provide a file.": [
         "Niste pružili datoteku."
@@ -3604,11 +3595,6 @@
       "Group assignment applied": [
         "Primijenjena grupna dodjela"
       ],
-      "Has ${ numAttachments } attachment": [
-        "Ima ${ numAttachments } privitak",
-        "Ima ${ numAttachments } privitka",
-        "Ima ${ numAttachments } privitaka"
-      ],
       "here": [
         "ovdje"
       ],
@@ -4408,9 +4394,6 @@
       "Conditions": [
         "Uvjeti"
       ],
-      "Confirm password": [
-        "Potvrdi lozinku"
-      ],
       "Contacts": [
         "Kontakti"
       ],
@@ -5135,6 +5118,11 @@
         "Naziv oznake"
       ]
     },
+    "new_plans: Action": {
+      "Upgrade now": [
+        "Nadogradi sada"
+      ]
+    },
     "new_plans: placeholder": {
       "Feedback": [
         "Povratne informacije"
@@ -5224,9 +5212,6 @@
     "Placeholder": {
       "A way to contact you": [
         "Način kako da vas kontaktiramo"
-      ],
-      "Confirm password": [
-        "Potvrdi lozinku"
       ],
       "E.g., ": [
         "Npr. "

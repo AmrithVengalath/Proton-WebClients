@@ -371,6 +371,9 @@
       "Move to trash": [
         "Pindahkan ke sampah"
       ],
+      "New": [
+        "Baru"
+      ],
       "New upload": [
         "Unggahan baru"
       ],
@@ -1915,6 +1918,9 @@
       "Contact could not be saved": [
         "Kontak tidak dapat disimpan"
       ],
+      "Contact name is too long": [
+        "Nama kontak terlalu panjang"
+      ],
       "Contact signature not verified": [
         "Tanda tangan kontak tidak terverifikasi"
       ],
@@ -2137,8 +2143,8 @@
       "This label name is not available. Please choose a different name.": [
         "Nama label ini tidak dapat digunakan. Mohon pilih nama lain."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "Pesan ini terindikasi memiliki tautan yang tidak dapat dibuka dengan benar oleh browser Anda."
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
+        "Pesan ini terindikasi memiliki tautan/URL yang tidak dapat dibuka dengan benar oleh browser Anda."
       ],
       "Try using only letters, numerals, and _.-": [
         "Cobalah untuk hanya menggunakan huruf, angka, dan tanda _.-"
@@ -2149,8 +2155,8 @@
       "You can't send a mail to more than 100 recipients": [
         "Anda tidak dapat mengirim email ke lebih dari 100 penerima"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "Anda tidak dapat mengirim vCard ke lebih dari 10 kontak"
+      "You can't send vCard files of more than 10 contacts": [
+        "Anda tidak dapat mengirim berkas vCard ke lebih dari 10 kontak"
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
         "Anda telah mencapai batas jumlah kalender personal milik Anda. Sebagian kalender tidak dapat diimpor."
@@ -2872,6 +2878,9 @@
       "${ selectedCalendarsTotal } of ${ providerCalendars.length } calendars": [
         "${ selectedCalendarsTotal } dari ${ providerCalendars.length } calendar"
       ],
+      "${ selectedCount } selected": [
+        "${ selectedCount } terpilih"
+      ],
       "${ selectedFoldersCount } folders selected": [
         "${ selectedFoldersCount } folder terpilih"
       ],
@@ -2956,9 +2965,6 @@
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "Sebelum meminta kode verifikasi baru, periksa folder spam Anda dan pastikan ${ strong } merupakan alamat email yang benar."
       ],
-      "Bulk uploads may reduce your computer’s performance. Consider limiting memory-intensive activities like streaming during upload. Or try uploading in batches.": [
-        "Mengunggah banyak berkas secara bersamaan dapat menurunkan performa komputer Anda. Cobalah untuk membatasi aktivitas yang membutuhkan banyak memori (seperti streaming) selama proses pengunggahan berlangsung, atau bagi unggahan Anda ke dalam beberapa batch."
-      ],
       "Calendar side panel": [
         "Panel samping kalender"
       ],
@@ -2997,6 +3003,9 @@
       ],
       "Continue using ${ DRIVE_APP_NAME } and unlock drive later": [
         "Lanjut gunakan ${ DRIVE_APP_NAME } tanpa membuka kunci berkas"
+      ],
+      "Country code": [
+        "Kode negara"
       ],
       "Create ${ calendarsToBeCreated } new calendars": [
         "Buat ${ calendarsToBeCreated } kalender baru"
@@ -3156,6 +3165,9 @@
       ],
       "Folders you sync from your computer will appear here.": [
         "Folder yang Anda sinkronkan dari komputer Anda akan muncul pada layar ini."
+      ],
+      "For best results, avoid streaming and memory-intensive activities or split your upload into smaller batches.": [
+        "Untuk hasil yang maksimal, hindari streaming serta berbagai kegiatan lainnya yang boros akan memori atau pisah unggahan Anda ke dalam beberapa kelompok berkas kecil."
       ],
       "Free up some space or add more storage space.": [
         "Kosongkan beberapa ruang atau tambah ruang penyimpanan."
@@ -3487,6 +3499,9 @@
       "Shared link failed to be loaded": [
         "Tautan yang dibagikan gagal dimuat"
       ],
+      "Signature cannot be validated due to network error, please try again later.": [
+        "Tanda tangan tidak dapat divalidasi karena kesalahan jaringan. Silakan coba lagi nanti."
+      ],
       "Signature check will be ignored": [
         "Proses verifikasi tanda tangan akan diabaikan"
       ],
@@ -3519,6 +3534,9 @@
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
         "Aplikasi perlu mendekripsi kontak Anda secara lokal sebelum dapat diekspor. Di akhir proses, berkas VCF akan dibuat dan Anda dapat mengunduhnya."
+      ],
+      "The encrypted data is slightly larger due to the overhead of the encryption and signatures, which ensure the security of your data.": [
+        "Data yang terenkripsi akan berukuran sedikit lebih besar berkat sisipan overhead enkripsi dan tanda tangan digital yang memastikan keamanan data Anda."
       ],
       "The following may have been tampered with: ${ items }. Only open if you trust it.": [
         "Berkas/folder berikut mungkin telah dimodifikasi: ${ items }. Mohon hanya buka berkas/folder apabila Anda mempercayai sumbernya."
@@ -3816,8 +3834,8 @@
       ]
     },
     "Label": {
-      "# of accesses": [
-        "# akses"
+      "# of downloads": [
+        "# unduhan"
       ],
       "${ BRAND_NAME } username": [
         "Pengguna ${ BRAND_NAME }"
@@ -3890,6 +3908,9 @@
       ],
       "Code is 6 digits without spaces": [
         "Kode tersusun atas 6 digit angka tanpa spasi"
+      ],
+      "Colors": [
+        "Warna"
       ],
       "Coming soon": [
         "Segera hadir"
@@ -4537,9 +4558,6 @@
       "File or folder is missing a name": [
         "Berkas atau folder belum dinamai"
       ],
-      "Item failed to be verified": [
-        "Item gagal diverifikasi"
-      ],
       "Link failed to be loaded": [
         "Gagal memuat tautan"
       ],
@@ -4855,9 +4873,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } telah keluar dari fase beta! Berikan berkas Anda keamanan yang serupa dengan email Anda."
-      ],
       "Encrypted search is here": [
         "Pencarian terenkripsi kini telah hadir"
       ],
@@ -4869,9 +4884,6 @@
       ],
       "Now you can easily search Drive files while keeping your data secure.": [
         "Kini Anda dapat mencari berkas Drive dengan mudah seraya menjaga data Anda tetap aman."
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Coba ${ DRIVE_APP_NAME }"
       ]
     },
     "Storage": {
@@ -5026,8 +5038,8 @@
       ]
     },
     "Title": {
-      "# of accesses": [
-        "# akses"
+      "# of downloads": [
+        "# unduhan"
       ],
       "${ emailsCount } members": [
         "${ emailsCount } anggota"
@@ -5314,6 +5326,9 @@
       "Open settings menu": [
         "Buka menu pengaturan"
       ],
+      "Original size": [
+        "Ukuran asli"
+      ],
       "Other information": [
         "Informasi lainnya"
       ],
@@ -5463,6 +5478,9 @@
       ],
       "Uploaded by": [
         "Diupload oleh"
+      ],
+      "Uploading a large file or folder": [
+        "Mengunggah berkas atau folder berukuran besar"
       ],
       "View contacts": [
         "Lihat kontak"

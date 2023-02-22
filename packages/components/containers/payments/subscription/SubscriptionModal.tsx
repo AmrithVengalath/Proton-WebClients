@@ -11,6 +11,7 @@ import { getCheckout, getIsCustomCycle, getOptimisticCheckResult } from '@proton
 import { toMap } from '@proton/shared/lib/helpers/object';
 import { hasBonuses } from '@proton/shared/lib/helpers/organization';
 import { hasPlanIDs, supportAddons } from '@proton/shared/lib/helpers/planIDs';
+import { captureMessage } from '@proton/shared/lib/helpers/sentry';
 import { getPlanIDs, hasMigrationDiscount, hasNewVisionary } from '@proton/shared/lib/helpers/subscription';
 import {
     Audience,
@@ -21,6 +22,7 @@ import {
     SubscriptionCheckResponse,
     SubscriptionModel,
 } from '@proton/shared/lib/interfaces';
+import { getSentryError } from '@proton/shared/lib/keys';
 import { getFreeCheckResult } from '@proton/shared/lib/subscription/freePlans';
 import { hasPaidMail } from '@proton/shared/lib/user/helpers';
 import isTruthy from '@proton/utils/isTruthy';
@@ -46,7 +48,6 @@ import {
     usePlans,
     useSubscription,
     useUser,
-    useVPNCountriesCount,
     useVPNServersCount,
 } from '../../../hooks';
 import GenericError from '../../error/GenericError';
@@ -60,16 +61,16 @@ import CalendarDowngradeModal from './CalendarDowngradeModal';
 import PlanCustomization from './PlanCustomization';
 import { DiscountWarningModal, NewVisionaryWarningModal } from './PlanLossWarningModal';
 import PlanSelection from './PlanSelection';
-import SubscriptionCheckout from './SubscriptionCheckout';
 import SubscriptionCycleSelector from './SubscriptionCycleSelector';
 import SubscriptionSubmitButton from './SubscriptionSubmitButton';
-import SubscriptionThanks from './SubscriptionThanks';
 import { SUBSCRIPTION_STEPS, subscriptionModalClassName } from './constants';
 import { getDefaultSelectedProductPlans } from './helpers';
+import SubscriptionCheckout from './modal-components/SubscriptionCheckout';
+import SubscriptionThanks from './modal-components/SubscriptionThanks';
 
 import './SubscriptionModal.scss';
 
-interface Props extends Pick<ModalProps<'div'>, 'open' | 'onClose' | 'onExit'> {
+export interface Props extends Pick<ModalProps<'div'>, 'open' | 'onClose' | 'onExit'> {
     app: APP_NAMES;
     step?: SUBSCRIPTION_STEPS;
     cycle?: Cycle;
@@ -165,7 +166,6 @@ const SubscriptionModal = ({
     const [plans = []] = usePlans();
     const plansMap = toMap(plans, 'Name') as PlansMap;
     const [vpnServers] = useVPNServersCount();
-    const [vpnCountries] = useVPNCountriesCount();
     const [organization] = useOrganization();
     const getCalendars = useGetCalendars();
 
@@ -326,7 +326,7 @@ const SubscriptionModal = ({
         });
     const creditCardTopRef = useRef<HTMLDivElement>(null);
 
-    const check = async (newModel: Model = model, wantToApplyNewGiftCode: boolean = false): Promise<void> => {
+    const check = async (newModel: Model = model, wantToApplyNewGiftCode: boolean = false): Promise<boolean> => {
         const copyNewModel = { ...newModel };
 
         if (copyNewModel.step === SUBSCRIPTION_STEPS.CUSTOMIZATION && !supportAddons(copyNewModel.planIDs)) {
@@ -336,7 +336,7 @@ const SubscriptionModal = ({
         if (!hasPlanIDs(newModel.planIDs)) {
             setCheckResult(getFreeCheckResult(model.currency, model.cycle));
             setModel(copyNewModel);
-            return;
+            return true;
         }
 
         try {
@@ -371,21 +371,33 @@ const SubscriptionModal = ({
             if (error.name === 'OfflineError') {
                 setModel({ ...model, step: SUBSCRIPTION_STEPS.NETWORK_ERROR });
             }
+
+            return false;
         }
+
+        return true;
     };
 
     const handleCheckout = async () => {
-        const params = await handlePaymentToken({
-            params: {
-                Amount: amountDue,
-                Currency: model.currency,
-                ...parameters,
-            },
-            createModal,
-            api,
-        });
+        try {
+            const params = await handlePaymentToken({
+                params: {
+                    Amount: amountDue,
+                    Currency: model.currency,
+                    ...parameters,
+                },
+                createModal,
+                api,
+            });
 
-        return handleSubscribe(params);
+            return await handleSubscribe(params);
+        } catch (e) {
+            const error = getSentryError(e);
+            if (error) {
+                const context = { app, step, cycle, currency, coupon, planIDs, defaultAudience };
+                captureMessage('Could not handle checkout', { level: 'error', extra: { error, context } });
+            }
+        }
     };
 
     const handleGift = (gift = '') => {
@@ -430,8 +442,22 @@ const SubscriptionModal = ({
 
     useEffect(() => {
         // Each time the user switch between steps, it takes the user to the top of the modal
-        topRef.current?.scrollIntoView();
+        topRef.current?.scrollIntoView?.();
     }, [model.step]);
+
+    const handleCustomizationSubmit = () => {
+        const run = async () => {
+            let isSuccess = await check();
+
+            if (isSuccess) {
+                setModel((old) => ({
+                    ...old,
+                    step: SUBSCRIPTION_STEPS.CHECKOUT,
+                }));
+            }
+        };
+        withLoading(run());
+    };
 
     return (
         <ModalTwo
@@ -448,6 +474,11 @@ const SubscriptionModal = ({
             ])}
             onSubmit={(e: FormEvent) => {
                 e.preventDefault();
+
+                if (model.step === SUBSCRIPTION_STEPS.CUSTOMIZATION) {
+                    return;
+                }
+
                 if (loadingCheck || loadingGift) {
                     return;
                 }
@@ -472,7 +503,6 @@ const SubscriptionModal = ({
                         plans={plans}
                         plansMap={plansMap}
                         vpnServers={vpnServers}
-                        vpnCountries={vpnCountries}
                         currency={model.currency}
                         cycle={model.cycle}
                         planIDs={model.planIDs}
@@ -512,17 +542,9 @@ const SubscriptionModal = ({
                                         <Button
                                             color="norm"
                                             loading={loading}
-                                            onClick={() => {
-                                                const run = async () => {
-                                                    await check();
-                                                    return setModel((old) => ({
-                                                        ...old,
-                                                        step: SUBSCRIPTION_STEPS.CHECKOUT,
-                                                    }));
-                                                };
-                                                withLoading(run());
-                                            }}
+                                            onClick={handleCustomizationSubmit}
                                             fullWidth
+                                            data-testid="continue-to-review"
                                         >
                                             {c('new_plans: action').t`Continue to review`}
                                         </Button>

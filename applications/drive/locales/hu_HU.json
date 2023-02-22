@@ -2106,9 +2106,6 @@
       "This label name is not available. Please choose a different name.": [
         "Ez a címkenév nem érhető el. Adjon meg egy másik nevet."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "Ez az üzenet olyan URL hivatkozásokat tartalmazhat, amelyeket a böngészője nem tud megfelelően megnyitni."
-      ],
       "Try using only letters, numerals, and _.-": [
         "Próbáljon csak betűket, számokat és _.-t használni"
       ],
@@ -2117,9 +2114,6 @@
       ],
       "You can't send a mail to more than 100 recipients": [
         "Nem küldhet üzenetet több mint 100 címzettnek"
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Egyszerre nem küldhet el több mint 10 vCard névjegyet"
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
         "Elérte a csomagjában maximálisan létrehozható személyes naptárak számát. Néhány naptár importálása nem sikerült."
@@ -2934,9 +2928,6 @@
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "Mielőtt új megerősítő kódot igényelne, kérjük tekintse meg a spam mappát illetve bizonyosodjon meg arról, hogy ${ strong } a megfelelő cím."
       ],
-      "Bulk uploads may reduce your computer’s performance. Consider limiting memory-intensive activities like streaming during upload. Or try uploading in batches.": [
-        "A tömeges feltöltések csökkenthetik számítógépének teljesítményét. Fontolja meg az olyan memória-intenzív tevékenységek, mint a videózás, korlátozását feltöltés közben. Vagy próbáljon meg tételekben feltölteni."
-      ],
       "Canceled": [
         "Megszakítva"
       ],
@@ -3715,9 +3706,6 @@
       ]
     },
     "Label": {
-      "# of accesses": [
-        "Elérések száma"
-      ],
       "${ BRAND_NAME } username": [
         "${ BRAND_NAME } felhasználónév"
       ],
@@ -4431,9 +4419,6 @@
       "File or folder is missing a name": [
         "A fájl vagy mappa neve hiányzik"
       ],
-      "Item failed to be verified": [
-        "Az elem hitelesítése sikertelen"
-      ],
       "Link failed to be loaded": [
         "A hivatkozás betöltése nem sikerült"
       ],
@@ -4736,9 +4721,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "A ${ DRIVE_APP_NAME } kijött a bétából! Adja meg fájljainak ugyanazt a biztonságot, amit az emiljei is kapnak."
-      ],
       "Encrypted search is here": [
         "A titkosított keresés megérkezett"
       ],
@@ -4750,9 +4732,6 @@
       ],
       "Now you can easily search Drive files while keeping your data secure.": [
         "Most már könnyedén tud Drive fájljai közt keresni adatai biztonságban tartásával."
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Próbálja ki a ${ DRIVE_APP_NAME }-ot"
       ]
     },
     "Storage": {
@@ -4891,9 +4870,6 @@
       ]
     },
     "Title": {
-      "# of accesses": [
-        "Elérések száma"
-      ],
       "${ emailsCount } member": [
         "${ emailsCount } tag",
         "${ emailsCount } tag"

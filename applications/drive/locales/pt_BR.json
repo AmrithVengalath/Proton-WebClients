@@ -373,6 +373,9 @@
       "Move to trash": [
         "Mover para lixeira"
       ],
+      "New": [
+        "Novo"
+      ],
       "New upload": [
         "Novo envio"
       ],
@@ -1918,6 +1921,9 @@
       "Contact could not be saved": [
         "O contato não pôde ser salvo"
       ],
+      "Contact name is too long": [
+        "Nome do contato é muito longo"
+      ],
       "Contact signature not verified": [
         "Assinatura do contato não foi verificada"
       ],
@@ -2146,7 +2152,7 @@
       "This label name is not available. Please choose a different name.": [
         "Este nome de marcador não está disponível. Por favor, escolha outro nome."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "Essa mensagem pode conter alguns links de URL que podem não serem abertos corretamente pelo seu navegador."
       ],
       "Try using only letters, numerals, and _.-": [
@@ -2158,8 +2164,8 @@
       "You can't send a mail to more than 100 recipients": [
         "Você não pode enviar um e-mail para mais de 100 destinatários"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "Você não pode enviar vCards de mais de 10 contatos"
+      "You can't send vCard files of more than 10 contacts": [
+        "Você não pode enviar arquivos vCards de mais de 10 contatos"
       ],
       "You have reached the maximum number of personal calendars. Some calendars couldn't be imported.": [
         "Você atingiu o número máximo de calendários pessoais. Alguns calendários não puderam ser importados."
@@ -2917,6 +2923,9 @@
         "${ selectedCalendarsTotal } de ${ providerCalendars.length } calendário",
         "${ selectedCalendarsTotal } de ${ providerCalendars.length } calendários"
       ],
+      "${ selectedCount } selected": [
+        "${ selectedCount } selecionado"
+      ],
       "${ selectedFoldersCount } folder selected": [
         "${ selectedFoldersCount } pasta selecionada",
         "${ selectedFoldersCount } pastas selecionadas"
@@ -3009,9 +3018,6 @@
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
         "Antes de pedir um novo código de verificação, verifique sua pasta de spam e verifique que ${ strong } é o endereço correto."
       ],
-      "Bulk uploads may reduce your computer’s performance. Consider limiting memory-intensive activities like streaming during upload. Or try uploading in batches.": [
-        "Os envios em massa podem reduzir o desempenho do seu computador. Considere limitar atividades com uso intensivo de memória, como streaming durante o envio. Ou tente fazer o envio em lotes."
-      ],
       "Calendar side panel": [
         "Painel lateral de calendário"
       ],
@@ -3050,6 +3056,9 @@
       ],
       "Continue using ${ DRIVE_APP_NAME } and unlock drive later": [
         "Continue usando ${ DRIVE_APP_NAME } e desbloqueie o drive depois"
+      ],
+      "Country code": [
+        "Código do país"
       ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Criar ${ calendarsToBeCreated } novo calendário",
@@ -3212,6 +3221,9 @@
       ],
       "Folders you sync from your computer will appear here.": [
         "As pastas do seu computador que você sincronizar aparecerão aqui."
+      ],
+      "For best results, avoid streaming and memory-intensive activities or split your upload into smaller batches.": [
+        "Para obter melhores resultados, evite streaming e atividades que consomem muita memória ou divida seu carregamento em lotes menores."
       ],
       "Free up some space or add more storage space.": [
         "Libere algum espaço ou adicione mais espaço de armazenamento."
@@ -3546,6 +3558,9 @@
       "Shared link failed to be loaded": [
         "O link compartilhado falhou ao carregar"
       ],
+      "Signature cannot be validated due to network error, please try again later.": [
+        "A assinatura não pode ser validada devido a um erro de rede, tente novamente mais tarde."
+      ],
       "Signature check will be ignored": [
         "Verificação de assinatura será ignorada"
       ],
@@ -3578,6 +3593,9 @@
       ],
       "The application needs to locally decrypt your contacts before they can be exported. At the end of the process, a VCF file will be generated and you will be able to download it.": [
         "O aplicativo precisa descriptografar localmente seus contatos antes que eles possam ser exportados. Ao final do processo, um arquivo VCF será gerado e você poderá baixá-lo."
+      ],
+      "The encrypted data is slightly larger due to the overhead of the encryption and signatures, which ensure the security of your data.": [
+        "Os dados criptografados são levemente maiores devido à sobrecarga da criptografia e assinaturas, que garantem a segurança dos seus dados."
       ],
       "The following may have been tampered with: ${ items }. Only open if you trust it.": [
         "Os seguintes podem ter sido adulterados: ${ items }. Abra apenas se você confiar."
@@ -3876,8 +3894,8 @@
       ]
     },
     "Label": {
-      "# of accesses": [
-        "# de acessos"
+      "# of downloads": [
+        "# de downloads"
       ],
       "${ BRAND_NAME } username": [
         "Nome de usuário do ${ BRAND_NAME }"
@@ -3950,6 +3968,9 @@
       ],
       "Code is 6 digits without spaces": [
         "O código é de 6 dígitos sem espaços"
+      ],
+      "Colors": [
+        "Cores"
       ],
       "Coming soon": [
         "Em breve"
@@ -4614,9 +4635,6 @@
       "File or folder is missing a name": [
         "Arquivo ou pasta sem nome"
       ],
-      "Item failed to be verified": [
-        "Item falhou ao ser verificado"
-      ],
       "Link failed to be loaded": [
         "Falha ao carregar o link"
       ],
@@ -5180,9 +5198,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "O ${ DRIVE_APP_NAME } saiu do beta! Dê aos seus arquivos a mesma segurança que seus e-mails recebem."
-      ],
       "Encrypted search is here": [
         "A pesquisa criptografada está aqui"
       ],
@@ -5194,9 +5209,6 @@
       ],
       "Now you can easily search Drive files while keeping your data secure.": [
         "Agora você pode facilmente pesquisar os arquivos do Drive enquanto mantém seus dados seguros."
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Experimente ${ DRIVE_APP_NAME }"
       ]
     },
     "Storage": {
@@ -5363,8 +5375,8 @@
       ]
     },
     "Title": {
-      "# of accesses": [
-        "# de acessos"
+      "# of downloads": [
+        "# de downloads"
       ],
       "${ emailsCount } member": [
         "${ emailsCount } membro",
@@ -5660,6 +5672,9 @@
       "Open settings menu": [
         "Abrir o menu de configurações"
       ],
+      "Original size": [
+        "Tamanho original"
+      ],
       "Other information": [
         "Outra informação"
       ],
@@ -5809,6 +5824,9 @@
       ],
       "Uploaded by": [
         "Enviado por"
+      ],
+      "Uploading a large file or folder": [
+        "Carregar um arquivo ou pasta grande"
       ],
       "View contacts": [
         "Ver contatos"

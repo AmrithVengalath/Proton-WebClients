@@ -60,7 +60,7 @@
         "Venstrestil"
       ],
       "Align right": [
-        "Højerstil"
+        "Højrejustér"
       ],
       "Alignment": [
         "Justering"
@@ -85,6 +85,9 @@
       ],
       "Archive": [
         "Arkivér"
+      ],
+      "As Scheduled": [
+        "Som Planlagt"
       ],
       "Attach screenshot(s)": [
         "Vedhæft skærmfoto(s)"
@@ -245,6 +248,9 @@
       "Create new message": [
         "Opret ny besked"
       ],
+      "Custom": [
+        "Tilpasset"
+      ],
       "Customize": [
         "Tilpas"
       ],
@@ -368,7 +374,7 @@
         "Udløbstid"
       ],
       "Export": [
-        "Exportér"
+        "Eksportér"
       ],
       "Export contact group": [
         "Eksporter kontaktgruppe"
@@ -595,6 +601,9 @@
       ],
       "Minimize composer": [
         "Minimér skrivevinduet"
+      ],
+      "Monday": [
+        "Mandag"
       ],
       "More": [
         "Flere"
@@ -842,9 +851,6 @@
       "Schedule message": [
         "Planlæg besked"
       ],
-      "Schedule send": [
-        "Planlæg afsendelse"
-      ],
       "Search": [
         "Søg"
       ],
@@ -982,6 +988,9 @@
       ],
       "This message contains remote content.": [
         "Denne besked indeholder eksternt indhold."
+      ],
+      "Tomorrow": [
+        "I morgen"
       ],
       "Trust": [
         "Hav tillid til"
@@ -2876,12 +2885,21 @@
       "No labels": [
         "Ingen etiketter"
       ],
+      "ProtonMail logo and a plus sign": [
+        "ProtonMail-logo og et plustegn"
+      ],
       "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have ${ MAX_IMPORT_CONTACTS_STRING } contact. If your file is bigger, please split it into smaller files.": [
         "Filen skal have en maksimal størrelse på ${ MAX_IMPORT_FILE_SIZE_STRING } og have\nop til ${ MAX_IMPORT_CONTACTS_STRING } kontakt. Hvis din fil er større, bedes du opdele den i mindre filer.",
         "Filen skal have en maksimal størrelse på ${ MAX_IMPORT_FILE_SIZE_STRING } og have\nop til ${ MAX_IMPORT_CONTACTS_STRING } kontakter. Hvis din fil er større, bedes du opdele den i mindre filer."
       ],
+      "Unlock custom message scheduling and other benefits when you upgrade your plan.": [
+        "Få adgang til brugerdefineret planlægning af beskeder og andre fordele, når du opgraderer dit abonnement."
+      ],
       "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
         "Benyt Træk og Slip for at rangordne fletningsprioritet mellem kontakter. Afmarkér de kontakter du ikke vil sammenflette."
+      ],
+      "When do you want your message to be sent?": [
+        "Hvornår skal din besked sendes?"
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Du kan importere begivenheder i iCal format (ICS-fil). Denne fil skal have en maksimal størrelse på ${ MAX_IMPORT_FILE_SIZE_STRING } og have op til ${ MAX_IMPORT_EVENTS_STRING } begivenheder. Hvis din fil er større, skal du opdele den i mindre filer."
@@ -3064,6 +3082,9 @@
       ],
       "Contact could not be saved": [
         "Kontakt kunne ikke gemmes"
+      ],
+      "Contact name is too long": [
+        "Kontaktnavn er for langt"
       ],
       "Contact signature could not be verified": [
         "Kontaktsignatur kunne ikke bekræftes"
@@ -3361,7 +3382,7 @@
       "This message has already been sent. A new draft has been saved.": [
         "Denne besked er allerede blevet sendt. En ny kladde er blevet gemt."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "Denne besked kan indeholde link-adresser, som ikke kan åbnes korrekt af din aktuelle browser."
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters.": [
@@ -3385,8 +3406,8 @@
       "You can't send a mail to more than 100 recipients": [
         "Du kan ikke sende en mail til mere end 100 modtagere"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "Du kan ikke sende vCards med mere end 10 kontakter"
+      "You can't send vCard files of more than 10 contacts": [
+        "Du kan ikke sende vCard-filer med mere end 10 kontakter"
       ],
       "You cannot open more than ${ maxActiveComposer } composer window at a time": [
         "Du kan ikke åbne mere end ${ maxActiveComposer } skrivervindue ad gangen",
@@ -4600,6 +4621,9 @@
       "Copied to clipboard": [
         "Kopieret til udklipsholder"
       ],
+      "Country code": [
+        "Landekode"
+      ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Opret ${ calendarsToBeCreated } ny kalender",
         "Opret ${ calendarsToBeCreated } nye kalendere"
@@ -4802,9 +4826,9 @@
       "Group assignment applied": [
         "Gruppetildeling anvendt"
       ],
-      "Has ${ numAttachments } attachment": [
-        "Har ${ numAttachments } vedhæftet fil",
-        "Har ${ numAttachments } vedhæftede filer"
+      "Has ${ numAttachments } attachment (${ numAttachmentsSize })": [
+        "Har ${ numAttachments } vedhæftet fil (${ numAttachmentsSize })",
+        "Har ${ numAttachments } vedhæftede filer (${ numAttachmentsSize })"
       ],
       "here": [
         "hér"
@@ -6016,14 +6040,14 @@
       "Code is 6 digits without spaces": [
         "Koden er på 6 cifre uden mellemrum"
       ],
+      "Colors": [
+        "Farver"
+      ],
       "Coming soon": [
         "Kommer snart"
       ],
       "Conditions": [
         "Betingelser"
-      ],
-      "Confirm password": [
-        "Bekræft adgangskode"
       ],
       "Contacts": [
         "Kontakter"
@@ -6921,6 +6945,42 @@
         "Skift eller tilføj konto"
       ]
     },
+    "new_plans: Action": {
+      "Upgrade now": [
+        "Opgradér nu"
+      ]
+    },
+    "new_plans: feature": {
+      "Custom email domains": [
+        "Brugerdefinerede e-maildomæner"
+      ],
+      "Hide My Email aliases": [
+        "Skjul mine e-mail-aliasser"
+      ],
+      "Schedule messages at any time": [
+        "Planlæg beskeder til ethvert tidspunkt"
+      ],
+      "Search message content": [
+        "Søg i beskedindhold"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Ubegrænsede mapper, etiketter og filtre"
+      ],
+      "Up to 15 email addresses": [
+        "Op til 15 e-mailadresser"
+      ],
+      "Up to 500 GB of storage": [
+        "Op til 500 GB lagerplads"
+      ]
+    },
+    "new_plans: feature info": {
+      "Get unlimited aliases with SimpleLogin by ${ BRAND_NAME }": [
+        "Få ubegrænsede aliaser med SimpleLogin fra ${ BRAND_NAME }"
+      ],
+      "Storage space is shared accross ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
+        "Lagerplads er delt mellem ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME }, og ${ DRIVE_APP_NAME }."
+      ]
+    },
     "new_plans: label": {
       "Tell us about your experience. (Optional)": [
         "Fortæl os om dine indtryk. (Valgfrit)"
@@ -7085,9 +7145,6 @@
       "A way to contact you": [
         "En måde at kontakte dig på"
       ],
-      "Confirm password": [
-        "Bekræft adgangskode"
-      ],
       "E.g., ": [
         "F.eks., "
       ],
@@ -7180,8 +7237,8 @@
     },
     "Progress bar description": {
       "${ contactsExported.length } out of ${ countContacts } contact successfully exported.": [
-        "${ contactsExported.length } ud af ${ countContacts } kontakt ekporteret.",
-        "${ contactsExported.length } ud af ${ countContacts } kontakter ekporteret."
+        "${ contactsExported.length } ud af ${ countContacts } kontakt eksporteret.",
+        "${ contactsExported.length } ud af ${ countContacts } kontakter eksporteret."
       ],
       "${ model.deleted.length } out of ${ totalBeDeleted } contact successfully deleted.": [
         "${ model.deleted.length } af i alt ${ totalBeDeleted } kontakt blev slettet.",
@@ -7443,9 +7500,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } er ude af dens prøveversion! Giv dine filer den samme sikkerhed som dine emails får."
-      ],
       "Email tracking protection": [
         "Beskyttelse mod sporing af e-mail"
       ],
@@ -7460,9 +7514,6 @@
       ],
       "Schedule send": [
         "Planlæg afsendelse"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Prøv ${ DRIVE_APP_NAME }"
       ],
       "We now load images by default and block senders from tracking you. This can be changed in the ${ settingsLink }.": [
         "Vi indlæser nu billeder som standard og blokerer afsendere fra at spore dig. Dette kan ændres i ${ settingsLink }."
@@ -8317,6 +8368,9 @@
       ],
       "Sending original message": [
         "Sender oprindelig besked"
+      ],
+      "Set your own schedule": [
+        "Sæt din egen tidsplan"
       ],
       "Settings": [
         "Indstillinger"

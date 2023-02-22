@@ -80,13 +80,11 @@ const MainContainer = () => {
         FeatureCode.CalendarAutoImportInvite,
         FeatureCode.ReferralProgram,
         FeatureCode.BulkUserUpload,
-        FeatureCode.ShowSenderImages,
         FeatureCode.SmtpToken,
         FeatureCode.CalendarSharingEnabled,
         FeatureCode.CalendarSubscription,
         FeatureCode.ReferralProgram,
         FeatureCode.EasySwitch,
-        FeatureCode.EasySwitchGmailNewScope,
         FeatureCode.CalendarPersonalEventsDeprecated,
     ]);
     const [

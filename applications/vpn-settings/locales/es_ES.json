@@ -96,7 +96,7 @@
         "Eliminar"
       ],
       "Delete your account": [
-        "Eliminar mi cuenta"
+        "Eliminar tu cuenta"
       ],
       "Details": [
         "Detalles"
@@ -117,7 +117,7 @@
         "Pasar a un plan inferior"
       ],
       "Downgrade account": [
-        "Pasar a una cuenta inferior"
+        "Pasar a un plan inferior"
       ],
       "Download": [
         "Descargar"
@@ -171,7 +171,7 @@
         "Ocultar"
       ],
       "I have a question": [
-        "Tengo una pregunta"
+        "Tengo una pregunta."
       ],
       "Increase": [
         "Aumentar"
@@ -204,7 +204,7 @@
         "Ok"
       ],
       "Open ${ CALENDAR_APP_NAME } settings": [
-        "Abrir ajustes de ${ CALENDAR_APP_NAME }"
+        "Abrir la configuración de ${ CALENDAR_APP_NAME }"
       ],
       "Open navigation": [
         "Abrir la navegación"
@@ -216,7 +216,7 @@
         "Pagar"
       ],
       "Pay ${ price } now": [
-        "Pagar ahora ${ price }"
+        "Pagar ${ price } ahora"
       ],
       "Previous": [
         "Anterior"
@@ -231,10 +231,10 @@
         "actualizar la página"
       ],
       "Remove bonuses": [
-        "Eliminar bonificaciones"
+        "Eliminar beneficios"
       ],
       "Remove gift code": [
-        "Eliminar código promocional"
+        "Eliminar código de regalo"
       ],
       "Report a problem": [
         "Notificar un problema"
@@ -294,7 +294,7 @@
         "Compartir con un enlace"
       ],
       "Sharing options": [
-        "Opciones de compartir"
+        "Opciones para compartir"
       ],
       "Show": [
         "Mostrar"
@@ -327,7 +327,7 @@
         "Inténtalo de nuevo"
       ],
       "Try another method": [
-        "Prueba con otro método"
+        "Intenta con otro método"
       ],
       "Try to save again. Saving failed due to: ${ saveError }": [
         "Error al guardar debido a: ${ saveError }. Intenta guardar de nuevo."
@@ -363,7 +363,7 @@
         "Utilizar código de autenticación"
       ],
       "Use recovery code": [
-        "Utilizar un código de recuperación"
+        "Utilizar código de recuperación"
       ],
       "Use your current email instead": [
         "Usar en cambio tu dirección de correo actual"
@@ -384,7 +384,7 @@
         "Verifica el código nuevamente"
       ],
       "View": [
-        "Visualizar"
+        "Ver"
       ],
       "View invoice": [
         "Ver factura"
@@ -453,7 +453,7 @@
         "Pagable cada mes"
       ],
       "Renews automatically on ${ formattedEndTime }": [
-        "Se renueva automáticamente el ${ formattedEndTime }"
+        "Se renueva automáticamente el ${ formattedEndTime }."
       ]
     },
     "Billing cycle option": {
@@ -478,7 +478,7 @@
     },
     "Bug category": {
       "Application problem": [
-        "Problema de la aplicación"
+        "Problema con la aplicación"
       ],
       "Bridge problem": [
         "Problema con el Bridge"
@@ -496,7 +496,7 @@
         "Problema con el dominio personalizado"
       ],
       "Drive problem": [
-        "Problema con Drive"
+        "Problema con unidad de almacenamiento"
       ],
       "Feature request": [
         "Solicitar función"
@@ -1471,19 +1471,19 @@
         "Cantidad por debajo del mínimo."
       ],
       "Checkout expired, please try again": [
-        "La compra ha expirado, inténtalo de nuevo"
+        "La compra ha expirado. Inténtalo de nuevo."
       ],
       "Code wrong or not valid anymore": [
         "Código incorrecto o no válido"
       ],
       "Domain not available, try again later": [
-        "Dominio no disponible, inténtelo de nuevo más tarde"
+        "Dominio no disponible. Inténtalo de nuevo más tarde."
       ],
       "Email is not valid": [
-        "El correo no es válido"
+        "El correo no es válido."
       ],
       "Enter 6 digits": [
-        "Introduce 6 dígitos"
+        "Introduce 6 dígitos."
       ],
       "Error connecting to the Bitcoin API.": [
         "Se ha producido un error al conectar a la API de Bitcoin."
@@ -1492,7 +1492,7 @@
         "Si el tiempo se ha acabado en tu televisor, haz clic en Actualizar en tu televisor e introduce tu código de nuevo."
       ],
       "Incorrect login credentials. Please try again.": [
-        "Credenciales de acceso incorrectas. Inténtalo de nuevo."
+        "Credenciales de inicio de sesión incorrectas. Inténtalo de nuevo."
       ],
       "Incorrect mailbox password. Please try again.": [
         "Contraseña de buzón incorrecta. Inténtalo de nuevo."
@@ -1519,22 +1519,22 @@
         "Código de verificación no válido"
       ],
       "Name on card required": [
-        "El titular de la tarjeta es obligatorio"
+        "El titular de la tarjeta es obligatorio."
       ],
       "Not a valid number": [
-        "No es un número válido"
+        "No es un número válido."
       ],
       "Organization not recognized. Try again.": [
-        "Organización no reconocida - inténtalo de nuevo."
+        "Organización no reconocida. Inténtalo de nuevo."
       ],
       "Passwords do not match": [
-        "Las contraseñas no coinciden"
+        "Las contraseñas no coinciden."
       ],
       "Payment process cancelled": [
-        "El proceso de pago ha sido cancelado"
+        "El proceso de pago ha sido cancelado."
       ],
       "Payment process consumed": [
-        "El proceso de pago ha expirado"
+        "El proceso de pago está terminado."
       ],
       "Payment process failed": [
         "Error al procesar el pago"
@@ -1543,7 +1543,7 @@
         "Proceso de pago no soportado"
       ],
       "Payments are currently not available, please try again later": [
-        "Los pagos no están disponibles actualmente, vuelve a intentarlo más tarde"
+        "Los pagos no están disponibles actualmente. Inténtalo de nuevo más tarde."
       ],
       "Please generate keys before you try to change your password": [
         "Genera claves antes de intentar cambiar tu contraseña."
@@ -1555,7 +1555,7 @@
         "Establece primero un número de teléfono de recuperación."
       ],
       "Process aborted": [
-        "Proceso abortado"
+        "Proceso anulado"
       ],
       "Request timed out": [
         "Tiempo de espera agotado"
@@ -1570,7 +1570,7 @@
         "Pestaña cerrada"
       ],
       "The browser you are using does not allow the payment to be fully authorized. Please use a different browser or log in via a computer.": [
-        "El navegador que estás utilizando no permite que el pago sea autorizado. Utiliza un navegador diferente o inicia sesión desde un ordenador."
+        "El navegador que estás utilizando no permite autorizar el pago. Utiliza un navegador diferente o inicia sesión desde un ordenador."
       ],
       "The minimum amount of credit that can be added is ${ price }": [
         "La cantidad mínima de crédito que puede añadirse es de ${ price }"
@@ -1585,7 +1585,7 @@
         "Este campo excede el máximo de ${ maximumLength } caracteres."
       ],
       "This field is required": [
-        "Este campo es obligatorio"
+        "Este campo es obligatorio."
       ],
       "This field requires a minimum of ${ minimumLength } characters.": [
         "Este campo requiere un mínimo de ${ minimumLength } caracteres."
@@ -1600,7 +1600,7 @@
         "Estado del token de pago desconocido"
       ],
       "Wrong recovery phrase. Try again or use another recovery method.": [
-        "Frase de recuperación incorrecta: inténtalo de nuevo o utiliza otro método de recuperación."
+        "Frase de recuperación incorrecta. Inténtalo de nuevo o utiliza otro método de recuperación."
       ],
       "You have no invoices.": [
         "No tienes facturas."
@@ -1614,7 +1614,7 @@
         "Error: ${ errorMessage }"
       ],
       "Oops, something went wrong": [
-        "Lo sentimos, se ha producido un error."
+        "Se ha producido un error."
       ],
       "Please ${ refresh } or check your connection.": [
         "${ refresh } o verifica tu conexión."
@@ -1623,7 +1623,7 @@
         "Se ha producido un error. Actualiza la página o inténtalo de nuevo más tarde."
       ],
       "There was a problem connecting to ${ BRAND_NAME }.": [
-        "Se ha detectado un problema al conectarte a ${ BRAND_NAME }."
+        "Se ha producido un problema al conectarte a ${ BRAND_NAME }."
       ],
       "You may also ${ refresh } or try again later.": [
         "También puedes ${ refresh } o intentarlo de nuevo más tarde."
@@ -1636,7 +1636,7 @@
     },
     "Error notification in the bug report modal when the user upload file": {
       "No image selected": [
-        "No se ha seleccionado ninguna imagen"
+        "Ninguna imagen seleccionada"
       ]
     },
     "Feature": {
@@ -1662,10 +1662,10 @@
     },
     "fido2: Action": {
       "Add security key": [
-        "Añadir llave de seguridad"
+        "Añadir clave de seguridad"
       ],
       "Delete key": [
-        "Eliminar llave"
+        "Eliminar clave"
       ]
     },
     "fido2: Error": {
@@ -1681,31 +1681,31 @@
     },
     "fido2: Info": {
       "2FA via security key disabled": [
-        "Se ha deshabilitado 2FA mediante llave de seguridad"
+        "Se ha deshabilitado 2FA con la clave de seguridad."
       ],
       "Add a name to identify your security key with.": [
-        "Añade un nombre para identificar tu llave de seguridad."
+        "Añade un nombre para identificar tu clave de seguridad."
       ],
       "Are you sure you want to delete security key ${ name }?": [
         "¿Estás seguro de querer eliminar la clave de seguridad ${ name }?"
       ],
       "Insert a security key linked to your ${ BRAND_NAME } Account.": [
-        "Inserta una llave de seguridad asociada con tu cuenta de ${ BRAND_NAME }."
+        "Inserta una clave de seguridad asociada con tu cuenta de ${ BRAND_NAME }."
       ],
       "Insert your security key into your device's USB port.": [
-        "Inserta tu llave de seguridad en el puerto USB."
+        "Inserta tu clave de seguridad en el puerto USB."
       ],
       "Security key": [
-        "Llave de seguridad"
+        "Clave de seguridad"
       ],
       "Security key removed": [
-        "Llave de seguridad eliminada"
+        "Clave de seguridad eliminada"
       ],
       "Security key updated": [
-        "Llave de seguridad actualizada"
+        "Clave de seguridad actualizada"
       ],
       "This will delete all security keys linked to your account.": [
-        "Esto eliminará todas las llaves de seguridad vinculadas a tu cuenta."
+        "Esto eliminará todas las claves de seguridad vinculadas a tu cuenta."
       ],
       "To turn on 2FA via security key, you'll need to activate 2FA via authenticator app": [
         "Para activar la opción 2FA con una clave de seguridad, necesitas una aplicación de autenticación."
@@ -1719,30 +1719,30 @@
     },
     "fido2: Label": {
       "Key name": [
-        "Nombre de la llave"
+        "Nombre de la clave"
       ],
       "Security key": [
-        "Llave de seguridad"
+        "Clave de seguridad"
       ]
     },
     "fido2: Title": {
       "Delete security key?": [
-        "¿Eliminar la llave de seguridad?"
+        "¿Eliminar la clave de seguridad?"
       ],
       "Disable 2FA via security key?": [
-        "¿Deshabilitar 2FA mediante llave de seguridad?"
+        "¿Deshabilitar 2FA con una clave de seguridad?"
       ],
       "Name your security key": [
-        "Nombre de tu llave de seguridad"
+        "Nombre de tu clave de seguridad"
       ],
       "Register your security key": [
-        "Registra tu llave de seguridad"
+        "Registra tu clave de seguridad."
       ],
       "Registered security keys": [
-        "Llaves de seguridad registradas"
+        "Claves de seguridad registradas"
       ],
       "Security key registered": [
-        "Llave de seguridad registrada"
+        "Clave de seguridad registrada"
       ]
     },
     "file size format": {
@@ -1832,7 +1832,7 @@
         "Manual"
       ],
       "No verification method available": [
-        "No hay ningún método de verificación disponible"
+        "No hay ningún método de verificación disponible."
       ],
       "SMS": [
         "SMS"
@@ -1933,7 +1933,7 @@
         "Se requiere suscripción Basic, Plus o Visionary"
       ],
       "Before requesting a new verification code, check your spam folder and check that ${ strong } is the correct address.": [
-        "Antes de solicitar un nuevo código de verificación verifica tu carpeta de spam y verifica que ${ strong } la dirección es correcta."
+        "Antes de solicitar un nuevo código de verificación, verifica tu carpeta de spam y verifica que ${ strong } la dirección es correcta."
       ],
       "Billing cycle: ${ text }": [
         "Ciclo de facturación: ${ text }"
@@ -1959,6 +1959,9 @@
       "Continue anyway?": [
         "¿Continuar de todos modos?"
       ],
+      "Country code": [
+        "Código de país"
+      ],
       "Creating your account": [
         "Creando tu cuenta"
       ],
@@ -1975,7 +1978,7 @@
         "No utilices las credenciales de OpenVPN/IKEv2 en las aplicaciones de ${ VPN_APP_NAME } ni en el panel de control de ${ VPN_APP_NAME }. ${ learnMore }"
       ],
       "Done! We sent a code to ${ destination }.": [
-        "¡Listo! Hemos enviado un código a ${ destination }."
+        "¡Listo! Se ha enviado un código a ${ destination }."
       ],
       "Downgrading will terminate any connections to paid ${ VPN_APP_NAME } servers.": [
         "Al cambiar por un plan con menos funciones se terminarán las conexiones a los servidores de pago de ${ VPN_APP_NAME }."
@@ -1984,7 +1987,7 @@
         "Descarga hoy tu aplicación favorita y lleva la privacidad contigo donde quieras que vayas."
       ],
       "Each code can only be used once": [
-        "Cada código únicamente puede ser usado una vez."
+        "Cada código puede usarse solo una vez."
       ],
       "Email hosting for 10 custom email domain names is included for free. Additional domains can be added for ${ price }.": [
         "El alojamiento de correo electrónico para 10 nombres de dominio de correo personalizados se incluye de forma gratuita. Se puede añadir dominios adicionales por ${ price }."
@@ -2005,7 +2008,7 @@
         "Introduce la nueva contraseña para ${ userName }."
       ],
       "Enter the code from your authenticator app": [
-        "Introduce el código de tu aplicación de autenticación"
+        "Introduce el código de tu aplicación de autenticación."
       ],
       "Enter the code sent to your phone number ${ phone }.": [
         "Introduce el código enviado a tu número de teléfono ${ phone }."
@@ -2104,7 +2107,7 @@
         "Instala un archivo de configuración de Servidor para conectarte a un servidor específico en el país de tu elección."
       ],
       "Internet connection lost": [
-        "Se ha perdido la conexión a Internet"
+        "Se ha perdido la conexión a internet."
       ],
       "Internet connection lost. Please check your device's connectivity.": [
         "Se ha perdido la conexión a Internet. Verifica la conectividad de tu dispositivo."
@@ -2128,7 +2131,7 @@
         "Cargando ${ appName }"
       ],
       "Loading preview": [
-        "Cargando previsualización"
+        "Cargando vista previa"
       ],
       "Loading...": [
         "Cargando..."
@@ -2218,13 +2221,13 @@
         "Se requiere suscripción Plus o Visionary"
       ],
       "Preview": [
-        "Previsualizar"
+        "Vista previa"
       ],
       "Preview failed to be loaded": [
         "Error al cargar la vista previa"
       ],
       "Price includes all applicable cycle-based discounts and non-expired coupons saved to your account.": [
-        "El precio incluye todos los descuentos aplicables según el ciclo de facturación y cupones sin caducar guardados en tu cuenta."
+        "El precio incluye todos los descuentos aplicables según el ciclo de facturación y cupones sin expirar guardados en tu cuenta."
       ],
       "Priority support": [
         "Soporte prioritario"
@@ -2236,10 +2239,10 @@
         "Recomendado en dispositivos de confianza. ${ keepMeSignedInLearnMoreLink }"
       ],
       "Recovery information will remain on this device unless you select to delete it.": [
-        "La información de recuperación permanecerá en este dispositivo salvo que selecciones eliminarla."
+        "La información de recuperación permanecerá en este dispositivo a menos que la elimines."
       ],
       "Refreshing the page or ${ link } will automatically resolve most issues.": [
-        "Actualizar la página o ${ link } resolverá automáticamente la mayoría de los problemas."
+        "Actualiza la página o ${ link } para resolver automáticamente la mayoría de los problemas."
       ],
       "Revoke certificate ${ name }": [
         "Revocar certificado ${ name }"
@@ -2260,10 +2263,10 @@
         "Carga del servidor"
       ],
       "Servers are unreachable. Please try again in a few minutes": [
-        "No se puede acceder a los servidores. Inténtalo de nuevo en unos minutos"
+        "No se puede acceder a los servidores. Inténtalo de nuevo en unos minutos."
       ],
       "Session timed out": [
-        "El tiempo de la sesión ha expirado"
+        "El tiempo de la sesión ha expirado."
       ],
       "Setting up your Drive": [
         "Configurando tu Drive"
@@ -2290,7 +2293,7 @@
         "Estas configuraciones son proporcionadas para funcionar con routers WireGuard y clientes oficiales."
       ],
       "This account has been suspended due to a potential policy violation.": [
-        "Esta cuenta ha sido suspendida debido a una posible violación de la política."
+        "Esta cuenta ha sido suspendida debido a una posible violación de los términos y condiciones."
       ],
       "This browser does not support previewing PDF documents. Please download the file.": [
         "Este navegador no admite la previsualización de documentos PDF. Descarga el archivo."
@@ -2323,7 +2326,7 @@
         "para continuar a ${ toAppName }"
       ],
       "To fight spam and abuse, please verify you are human.": [
-        "Para luchar contra el spam y el abuso, verifica que eres humano."
+        "Para luchar contra el spam y el abuso, necesitamos verificar que eres humano."
       ],
       "To keep up with the latest development at ${ BRAND_NAME } products, you can subscribe to our various emails and visit our blog from time to time.": [
         "Para estar informado de las últimas novedades de los productos ${ BRAND_NAME }, puedes suscribirte a nuestros diferentes boletines y visitar nuestro blog de vez en cuando."
@@ -2380,7 +2383,7 @@
         "Cambios no guardados"
       ],
       "Unsupported file": [
-        "Fichero no soportado"
+        "Archivo no admitido"
       ],
       "Upgrade now to get premium features, products and storage at a special price": [
         "Actualiza tu cuenta ahora para obtener funciones prémium, productos y almacenamiento a un precio especial."
@@ -2431,7 +2434,7 @@
         "Te redirigiremos a PayPal en una nueva pestaña del navegador para completar esta transacción. Si utilizas cualquier bloqueador emergente, desactívalo para continuar."
       ],
       "We'll send a new verification code to ${ strong }": [
-        "Enviaremos un código de verificación nuevo a ${ strong }"
+        "Enviaremos un nuevo código de verificación a ${ strong }."
       ],
       "We’ll send a reset code to the email address you provided for account recovery.": [
         "Te enviaremos un código de restablecimiento a la dirección de correo electrónico que nos has proporcionado para recuperar la cuenta."
@@ -2458,13 +2461,13 @@
         "¿Te gustaría recibir un nuevo código de verificación o utilizar un método de verificación alternativo?"
       ],
       "Would you like to receive a new verification code?": [
-        "¿Quiere recibir un código de verificación nuevo?"
+        "¿Quieres recibir un nuevo código de verificación?"
       ],
       "You already have a free account": [
         "Ya tienes una cuenta gratuita"
       ],
       "You are currently signed in as ${ user.Name } (${ user.Email }).": [
-        "Actualmente está conectado como ${ user.Name } (${ user.Email })."
+        "Actualmente estás conectado como ${ user.Name } (${ user.Email })."
       ],
       "You can customize and download your invoices for accounting purposes.": [
         "Puedes personalizar y descargar tus facturas con fines de contabilidad."
@@ -2488,7 +2491,7 @@
         "Debes desactivar o eliminar los usuarios, direcciones y dominios personalizados adicionales de ${ MAIL_APP_NAME } antes de poder pasar a un plan con menos funciones."
       ],
       "You must have a credit card or bank account linked with your PayPal account in order to add it as a payment method.": [
-        "Debes tener una tarjeta de crédito o una cuenta bancaria vinculada a tu cuenta PayPal para poder añadirla como método de pago."
+        "Debes tener una tarjeta de crédito o una cuenta bancaria vinculada a tu cuenta PayPal para añadirla como método de pago."
       ],
       "You must have a credit card or bank account linked with your PayPal account. If your PayPal account doesn't have that, please click on the button below.": [
         "Debes tener una tarjeta de crédito o una cuenta bancaria vinculada a tu cuenta de PayPal. Si tu cuenta de PayPal no lo tiene, haz clic en el botón de abajo."
@@ -2521,10 +2524,10 @@
         "Seguirás conectado incluso después de cerrar el navegador."
       ],
       "Your ${ BRAND_NAME } account is currently suspended. After 28 days, emails will no longer be delivered to your inbox, your Drive sharing links will be blocked, and you will not be able to upload new files. To resume normal service, please pay any overdue invoices.": [
-        "Tu cuenta ${ BRAND_NAME } está actualmente suspendida. Transcurridos 28 días, los correos ya no serán entregados en tu bandeja de entrada, tus enlaces compartidos en Drive serán bloqueados y no podrás cargar nuevos archivos. Para restablecer el servicio normal, tienes que pagar las facturas pendientes."
+        "Tu cuenta ${ BRAND_NAME } está actualmente suspendida. Transcurridos 28 días, los correos ya no serán entregados en tu bandeja de entrada, tus enlaces compartidos en tu almacenamiento serán bloqueados y no podrás cargar nuevos archivos. Para restablecer el servicio normal, tienes que pagar las facturas pendientes."
       ],
       "Your ${ BRAND_NAME } account is currently suspended. Emails are no longer being delivered to your inbox. Your Drive sharing links are no longer active, and you cannot upload new files. To continue using your account, please pay any overdue invoices.": [
-        "Tu cuenta ${ BRAND_NAME } está suspendida actualmente. Los correos ya no serán entregados en tu bandeja de entrada, tus enlaces compartidos en Drive están bloqueados y no puedes cargar nuevos archivos. Para continuar usando tu cuenta, tienes que abonar las facturas pendientes."
+        "Tu cuenta ${ BRAND_NAME } está suspendida actualmente. Los correos ya no serán entregados en tu bandeja de entrada, tus enlaces compartidos en tu almacenamiento están bloqueados y no puedes cargar nuevos archivos. Para continuar usando tu cuenta, tienes que pagar las facturas pendientes."
       ],
       "Your ${ VPN_APP_NAME } and ${ MAIL_APP_NAME } accounts are linked. To delete them both, please log in at ${ loginLink } and delete your account there.": [
         "Tus cuentas ${ VPN_APP_NAME } y ${ MAIL_APP_NAME } están vinculadas. Para eliminar ambas, inicia sesión en ${ loginLink } y elimina tu cuenta allí."
@@ -2545,7 +2548,7 @@
         "Por razones de seguridad, tu banco requiere verificación 3-D Secure."
       ],
       "Your email will only be used for this one-time verification.": [
-        "Tu correo electrónico sólo se utilizará para esta verificación única."
+        "Tu correo electrónico solo se utilizará para esta verificación única."
       ],
       "Your existing ${ BRAND_NAME } account can be used to access all ${ BRAND_NAME } services. Please sign in with ${ email }.": [
         "Tu cuenta actual de ${ BRAND_NAME } puede utilizarse para acceder a todos los servicios de ${ BRAND_NAME }. Inicia sesión con ${ email }."
@@ -2554,7 +2557,7 @@
         "Los detalles de pago están protegidos con cifrado TLS y por las leyes de privacidad suizas."
       ],
       "Your phone number will only be used for this one-time verification.": [
-        "Tu número de teléfono sólo se utilizará para esta verificación única."
+        "Tu número de teléfono solo se utilizará para esta verificación única."
       ],
       "Your subscription is managed by Mozilla. Please contact Mozilla support.": [
         "Tu suscripción está gestionada por Mozilla. Contacta con el soporte de Mozilla."
@@ -2730,7 +2733,7 @@
         "Código"
       ],
       "Code is 6 digits without spaces": [
-        "El código es de 6 dígitos sin espacios"
+        "El código es de 6 dígitos sin espacios."
       ],
       "Config to connect to ${ serverName }": [
         "Configurar para conectarse a ${ serverName }"
@@ -2907,7 +2910,7 @@
         "Prorrateo"
       ],
       "Recovery email address": [
-        "Dirección de correo electrónico de recuperación"
+        "Correo electrónico de recuperación"
       ],
       "Recovery phone number": [
         "Número de teléfono de recuperación"
@@ -3089,7 +3092,7 @@
     },
     "Message display when a new app version is available": {
       "A new version of ${ appName } is available. ${ reloadButton }.": [
-        "Hay una nueva versión de ${ appName } disponible. ${ reloadButton }."
+        "Una versión nueva de ${ appName } está disponible. ${ reloadButton }."
       ]
     },
     "Monetary unit": {
@@ -3177,12 +3180,12 @@
     },
     "new_plans: attribute": {
       "Get ${ connections } high-speed VPN connection": [
-        "Obtén ${ connections } conexión VPN de alta velocidad",
-        "Obtén ${ connections } conexiones VPN de alta velocidad"
+        "Obtén ${ connections } conexión VPN de alta velocidad.",
+        "Obtén ${ connections } conexiones VPN de alta velocidad."
       ],
       "Get ${ connections } high-speed VPN connection per user": [
-        "Obtén ${ connections } conexión VPN de alta velocidad por usuario",
-        "Obtén ${ connections } conexiones VPN de alta velocidad por usuario"
+        "Obtén ${ connections } conexión VPN de alta velocidad por usuario.",
+        "Obtén ${ connections } conexiones VPN de alta velocidad por usuario."
       ]
     },
     "new_plans: feature": {
@@ -3583,7 +3586,7 @@
         "Por el momento, no se puede enviar correos electrónicos mediante programación ni promocionales de forma masiva. Te recomendamos tener un proveedor de servicios de correo que te permita hacerlo si esa es tu intención."
       ],
       "Control access to your shared files by adding password protection and link expiration dates": [
-        "Controla el acceso a tus archivos compartidos mediante enlaces con fechas de caducidad y contraseña."
+        "Controla el acceso a tus archivos compartidos mediante enlaces con fechas de expiración y contraseña."
       ],
       "Create multiple email addresses for your online identities, e.g., JohnShopper@${ domain } for shopping accounts, JohnNews@${ domain } for news subscription": [
         "Crea varias direcciones de correo electrónico para tus identidades en línea, como \"JuanCompras@${ domain }\" para las cuentas destinadas a compras o \"JuanNoticias@${ domain }\", para las suscripciones a medios de comunicación."
@@ -3846,7 +3849,7 @@
     },
     "Placeholder": {
       "A way to contact you": [
-        "Una forma de contactar contigo"
+        "Una forma de contactarte"
       ],
       "Add gift code": [
         "Añadir código promocional"
@@ -3898,8 +3901,8 @@
         "Elige el número de usuarios para incluir en tu plan. Cada usuario adicional cuesta ${ price }."
       ],
       "Should you need more than ${ maxUsers } user account, please ${ contact } our Sales team.": [
-        "Si necesitaras más de ${ maxUsers } cuenta de usuario, ${ contact } con nuestro equipo de Ventas.",
-        "Si necesitaras más de ${ maxUsers } cuentas de usuario, ${ contact } con nuestro equipo de Ventas."
+        "Si necesitas más de ${ maxUsers } cuenta de usuario, ${ contact } con nuestro equipo de Ventas.",
+        "Si necesitas más de ${ maxUsers } cuentas de usuario, ${ contact } con nuestro equipo de Ventas."
       ]
     },
     "Price": {
@@ -3912,7 +3915,7 @@
         "Cancelar"
       ],
       "Email address has been verified.": [
-        "La dirección de correo electrónico ha sido verificada."
+        "Dirección de correo electrónico verificada."
       ],
       "Email address not yet verified.": [
         "Dirección de correo electrónico aún no verificada."
@@ -3990,17 +3993,11 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } ha salido de la versión beta. Dé a sus archivos la misma seguridad que reciben sus correos electrónicos."
-      ],
       "Get up to ${ credits } in credits.": [
         "Consigue hasta ${ credits } en créditos."
       ],
       "Invite friends to ${ BRAND_NAME }": [
         "Invita amigos a ${ BRAND_NAME }"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Prueba ${ DRIVE_APP_NAME }"
       ]
     },
     "State": {
@@ -4081,8 +4078,8 @@
         "Bloqueador de anuncios integrado (NetShield)"
       ],
       "High-speed VPN on ${ maxVpn } device": [
-        "VPN de alta velocidad en el dispositivo ${ maxVpn }",
-        "VPN de alta velocidad en los dispositivos ${ maxVpn }"
+        "VPN de alta velocidad en ${ maxVpn } dispositivo",
+        "VPN de alta velocidad en ${ maxVpn } dispositivos"
       ]
     },
     "Subscription price": {
@@ -4277,7 +4274,7 @@
         "Añadir créditos"
       ],
       "Add invoice details": [
-        "Añadir datos de la factura"
+        "Añadir datos a la factura"
       ],
       "Add PayPal payment method": [
         "Añadir PayPal como método de pago"
@@ -4286,7 +4283,7 @@
         "Cantidad"
       ],
       "Amount due": [
-        "Importe adeudado"
+        "Importe a pagar"
       ],
       "Apply gift code": [
         "Aplicar código de regalo"
@@ -4391,7 +4388,7 @@
         "Fecha final"
       ],
       "Enter your password": [
-        "Introduce tu contraseña"
+        "Introduce tu contraseña."
       ],
       "Error": [
         "Error"
@@ -4442,7 +4439,7 @@
         "No hay ningún método de recuperación"
       ],
       "Open actions dropdown": [
-        "Abrir acciones desplegables"
+        "Abrir lista desplegable de acciones"
       ],
       "Open help menu": [
         "Abrir el menú de ayuda"
@@ -4653,8 +4650,8 @@
     },
     "Validation": {
       "Password must contain at least ${ length } character": [
-        "La contraseña debe contener al menos ${ length } caracter",
-        "La contraseña debe contener al menos ${ length } caracteres"
+        "La contraseña debe contener al menos ${ length } caracter.",
+        "La contraseña debe contener al menos ${ length } caracteres."
       ],
       "Try a shorter username (${ n } character max)": [
         "Prueba con un nombre de usuario más corto (máx. ${ n } carácter)",
@@ -4729,13 +4726,13 @@
         "Ten en cuenta que al elegir este método de pago, tu cuenta no será actualizada inmediatamente. Actualizaremos tu cuenta una vez que el pago se haya completado."
       ],
       "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
-        "Los informes no están cifrados de extremo a extremo, no envíes ninguna información confidencial."
+        "Los informes no están cifrados de extremo a extremo. No envíes ninguna información confidencial."
       ],
       "The date and time settings on your device are out of sync. ${ learnMore }": [
         "La configuración de la fecha y la hora de tu dispositivo no están sincronizadas. ${ learnMore }"
       ],
       "Unfortunately, we’re not online at the moment. Please complete the form below to describe your issue, and we will look into it and be in touch when we’re back online.": [
-        "Desafortunadamente, no estamos en línea en este momento. Complete el siguiente formulario para describir su problema, y lo analizaremos y nos pondremos en contacto cuando volvamos a estar en línea."
+        "Desafortunadamente, no estamos en línea en este momento. Completa el siguiente formulario para describir tu problema, y lo analizaremos y nos pondremos en contacto cuando volvamos a estar en línea."
       ],
       "Your free trial ends on ${ textDate }. ${ action }": [
         "Tu periodo de prueba gratuito acaba el ${ textDate }. ${ action }"

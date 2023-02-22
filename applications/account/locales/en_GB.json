@@ -3227,9 +3227,6 @@
       "Read": [
         "Read"
       ],
-      "Recovery phrase": [
-        "Recovery phone"
-      ],
       "Repeat password": [
         "Repeat password"
       ],
@@ -3349,11 +3346,6 @@
       ],
       "Your password (admin)": [
         "Your password (admin)"
-      ]
-    },
-    "label": {
-      "Recovery phrase": [
-        "Recovery phone"
       ]
     },
     "Label for default event settings": {

@@ -818,9 +818,6 @@
       "Schedule message": [
         "Προγραμματισμός μηνύματος"
       ],
-      "Schedule send": [
-        "Προγραμματισμός αποστολής"
-      ],
       "Search": [
         "Αναζήτηση"
       ],
@@ -3114,8 +3111,8 @@
       "This message has already been sent. A new draft has been saved.": [
         "Αυτό το μήνυμα έχει ήδη αποσταλεί. Αποθηκεύτηκε ένα νέο πρόχειρο."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "Αυτό το μήνυμα μπορεί να περιέχει κάποιο σύνδεσμο URL που δεν μπορεί να ανοίξει σωστά από το τρέχον πρόγραμμα περιήγησης."
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
+        "Αυτό το μήνυμα μπορεί να περιέχει κάποιους συνδέσμους URL που δεν μπορούν να ανοίξουν σωστά από το τρέχον πρόγραμμα περιήγησης."
       ],
       "Trusted keys are not valid for sending": [
         "Τα αξιόπιστα κλειδιά δεν είναι έγκυρα για την αποστολή"
@@ -3132,8 +3129,8 @@
       "You can't send a mail to more than 100 recipients": [
         "Δεν μπορείτε να στείλετε μήνυμα σε περισσότερους από 100 παραλήπτες"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "Δεν μπορείτε να στείλετε vCards για περισσότερες από 10 επαφές"
+      "You can't send vCard files of more than 10 contacts": [
+        "Δεν μπορείτε να στείλετε φακέλους vCard για περισσότερες από 10 επαφές"
       ],
       "You cannot open more than ${ maxActiveComposer } composer window at a time": [
         "Δεν μπορείτε να ανοίξετε πάνω από ${ maxActiveComposer } παράθυρο συντάκτη τη φορά",
@@ -4390,10 +4387,6 @@
       "Group assignment applied": [
         "Εφαρμογή ομαδικής εκχώρησης"
       ],
-      "Has ${ numAttachments } attachment": [
-        "Έχει ${ numAttachments } συνημμένο",
-        "Έχει ${ numAttachments } συνημμένα"
-      ],
       "here": [
         "εδώ"
       ],
@@ -5466,9 +5459,6 @@
       "Conditions": [
         "Προϋποθέσεις"
       ],
-      "Confirm password": [
-        "Επιβεβαίωση κωδικού πρόσβασης"
-      ],
       "Contacts": [
         "Επαφές"
       ],
@@ -6324,6 +6314,19 @@
         "Εναλλαγή ή προσθήκη λογαριασμού"
       ]
     },
+    "new_plans: Action": {
+      "Upgrade now": [
+        "Αναβάθμιση τώρα"
+      ]
+    },
+    "new_plans: feature": {
+      "Custom email domains": [
+        "Προσαρμοσμένοι τομείς"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Απεριόριστοι φάκελοι, ετικέτες και φίλτρα"
+      ]
+    },
     "new_plans: label": {
       "Tell us about your experience. (Optional)": [
         "Πείτε μας για την εμπειρία σας. (Προαιρετικό)"
@@ -6445,9 +6448,6 @@
     "Placeholder": {
       "A way to contact you": [
         "Ένας τρόπος να επικοινωνήσουμε μαζί σας"
-      ],
-      "Confirm password": [
-        "Επιβεβαίωση κωδικού πρόσβασης"
       ],
       "E.g., ": [
         "Για παράδειγμα, "
@@ -6794,9 +6794,6 @@
       ],
       "Schedule send": [
         "Προγραμματισμός αποστολής"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Δοκιμή ${ DRIVE_APP_NAME }"
       ],
       "You can now schedule your messages to be sent later": [
         "Τώρα μπορείτε να χρονοδιαγραφήσετε την αποστολή των μηνυμάτων σας αργότερα"

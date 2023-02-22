@@ -86,6 +86,9 @@
       "Archive": [
         "Archivar"
       ],
+      "As Scheduled": [
+        "Como lo programado"
+      ],
       "Attach screenshot(s)": [
         "Adjuntar captura(s)"
       ],
@@ -162,7 +165,7 @@
         "Limpiar búsqueda"
       ],
       "Click here.": [
-        "Clic aquí."
+        "Haga clic aquí."
       ],
       "Close": [
         "Cerrar"
@@ -244,6 +247,9 @@
       ],
       "Create new message": [
         "Crear mensaje nuevo"
+      ],
+      "Custom": [
+        "Personalizar"
       ],
       "Customize": [
         "Personalizar"
@@ -596,6 +602,9 @@
       "Minimize composer": [
         "Minimizar compositor"
       ],
+      "Monday": [
+        "Lunes"
+      ],
       "More": [
         "Más"
       ],
@@ -842,9 +851,6 @@
       "Schedule message": [
         "Programar mensaje"
       ],
-      "Schedule send": [
-        "Programar envío"
-      ],
       "Search": [
         "Buscar"
       ],
@@ -982,6 +988,9 @@
       ],
       "This message contains remote content.": [
         "Este mensaje incluye contenido remoto."
+      ],
+      "Tomorrow": [
+        "Mañana"
       ],
       "Trust": [
         "Confiar"
@@ -2876,12 +2885,21 @@
       "No labels": [
         "Sin etiquetas"
       ],
+      "ProtonMail logo and a plus sign": [
+        "Logo de Proton Mail y un signo más"
+      ],
       "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have ${ MAX_IMPORT_CONTACTS_STRING } contact. If your file is bigger, please split it into smaller files.": [
         "El archivo debe tener un tamaño máximo de ${ MAX_IMPORT_FILE_SIZE_STRING } y tener ${ MAX_IMPORT_CONTACTS_STRING } contacto. Si su archivo es más grande, divídalo en archivos más pequeños.",
         "El archivo debe tener un tamaño máximo de ${ MAX_IMPORT_FILE_SIZE_STRING } y tener ${ MAX_IMPORT_CONTACTS_STRING } contactos. Si su archivo es más grande, divídalo en archivos más pequeños."
       ],
+      "Unlock custom message scheduling and other benefits when you upgrade your plan.": [
+        "Desbloquee la programación de mensajes personalizados y otros beneficios cuando actualice su plan."
+      ],
       "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
         "Use arrastrar y soltar para clasificar la prioridad entre contactos. Desmarque los contactos que no desea combinar."
+      ],
+      "When do you want your message to be sent?": [
+        "¿Cuándo desea que se envíe su mensaje?"
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Puede importar eventos en formato iCal (archivos ICS). El archivo debe tener un tamaño máximo de ${ MAX_IMPORT_FILE_SIZE_STRING } y tener hasta ${ MAX_IMPORT_EVENTS_STRING } eventos.\nSi su archivo es más grande, debe dividirlo en archivos más pequeños."
@@ -3064,6 +3082,9 @@
       ],
       "Contact could not be saved": [
         "El contacto no se pudo guardar"
+      ],
+      "Contact name is too long": [
+        "El nombre del contacto es muy largo"
       ],
       "Contact signature could not be verified": [
         "No se pudo verificar la firma del contacto"
@@ -3361,8 +3382,8 @@
       "This message has already been sent. A new draft has been saved.": [
         "Este mensaje ya fue enviado. Se guardó un borrador nuevo."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "Este mensaje puede contener la URL de un enlace que no puede abrirse correctamente en el navegador actual."
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
+        "Este mensaje podría contener enlaces que no pueden abrirse correctamente en su navegador actual."
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters.": [
         "Demasiados filtros activos. Actualice a un plan de pago para activar más filtros."
@@ -3385,8 +3406,8 @@
       "You can't send a mail to more than 100 recipients": [
         "No puede enviar un correo a más de 100 destinatarios"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "No puede enviar vCards de más de 10 contactos"
+      "You can't send vCard files of more than 10 contacts": [
+        "No puede enviar archivos vCards de más de 10 contactos"
       ],
       "You cannot open more than ${ maxActiveComposer } composer window at a time": [
         "No puede abrir más de ${ maxActiveComposer } ventana de compositor a la vez",
@@ -4600,6 +4621,9 @@
       "Copied to clipboard": [
         "Copiado al portapapeles"
       ],
+      "Country code": [
+        "Código de país"
+      ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Crear ${ calendarsToBeCreated } calendario nuevo",
         "Crear ${ calendarsToBeCreated } calendarios nuevos"
@@ -4802,9 +4826,9 @@
       "Group assignment applied": [
         "Asignación de grupo aplicada"
       ],
-      "Has ${ numAttachments } attachment": [
-        "Tiene ${ numAttachments } adjunto",
-        "Tiene ${ numAttachments } adjuntos"
+      "Has ${ numAttachments } attachment (${ numAttachmentsSize })": [
+        "Tiene ${ numAttachments } adjunto (${ numAttachmentsSize })",
+        "Tiene ${ numAttachments } adjuntos (${ numAttachmentsSize })"
       ],
       "here": [
         "aquí"
@@ -5672,7 +5696,7 @@
     },
     "Info on errors": {
       "Click for details": [
-        "Clic para más detalles"
+        "Haga clic para más detalle."
       ]
     },
     "Key badge": {
@@ -6016,14 +6040,14 @@
       "Code is 6 digits without spaces": [
         "El código es de 6 dígitos sin espacios"
       ],
+      "Colors": [
+        "Colores"
+      ],
       "Coming soon": [
         "Próximamente"
       ],
       "Conditions": [
         "Condiciones"
-      ],
-      "Confirm password": [
-        "Confirmar contraseña"
       ],
       "Contacts": [
         "Contactos"
@@ -6921,6 +6945,42 @@
         "Cambiar o añadir cuenta"
       ]
     },
+    "new_plans: Action": {
+      "Upgrade now": [
+        "Actualizar ahora"
+      ]
+    },
+    "new_plans: feature": {
+      "Custom email domains": [
+        "Dominios de correo electrónico personalizados"
+      ],
+      "Hide My Email aliases": [
+        "Alias de Hide My Email"
+      ],
+      "Schedule messages at any time": [
+        "Programar mensajes a cualquier hora"
+      ],
+      "Search message content": [
+        "Buscar contenido del mensaje"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Carpetas, etiquetas y filtros ilimitados"
+      ],
+      "Up to 15 email addresses": [
+        "Hasta 15 direcciones de correo"
+      ],
+      "Up to 500 GB of storage": [
+        "Hasta 500 GB de almacenamiento"
+      ]
+    },
+    "new_plans: feature info": {
+      "Get unlimited aliases with SimpleLogin by ${ BRAND_NAME }": [
+        "Obtenga aliases ilimitados con SimpleLogin de ${ BRAND_NAME }"
+      ],
+      "Storage space is shared accross ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
+        "El espacio de almacenamiento es compartido entre ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } y ${ DRIVE_APP_NAME }"
+      ]
+    },
     "new_plans: label": {
       "Tell us about your experience. (Optional)": [
         "Cuéntenos acerca de su experiencia (opcional)."
@@ -7067,7 +7127,7 @@
     },
     "PGP Key info": {
       "${ emailAddress } has marked this key as compromised. This key cannot be used neither for encryption nor for signature verification.": [
-        "${ emailAddress } marcó esta clave como comprometida. Esta clave no puede usarse ni para el cifrado ni para la verificar la firma."
+        "${ emailAddress } marcó esta clave como comprometida. Esta clave no puede usarse ni para el cifrado ni para verificar la firma."
       ],
       "${ emailAddress } has marked this key as obsolete. This key can only be used for signature verification.": [
         "${ emailAddress } marcó esta clave como obsoleta. Esta clave solo puede usarse para verificar la firma."
@@ -7084,9 +7144,6 @@
     "Placeholder": {
       "A way to contact you": [
         "Una forma de contactarle"
-      ],
-      "Confirm password": [
-        "Confirmar contraseña"
       ],
       "E.g., ": [
         "Ej., "
@@ -7681,9 +7738,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "¡${ DRIVE_APP_NAME } sale de la beta! Brinde a sus archivos la misma seguridad de sus correos electrónicos."
-      ],
       "Email tracking protection": [
         "Protección de rastreo de correo"
       ],
@@ -7698,9 +7752,6 @@
       ],
       "Schedule send": [
         "Programar envío"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Probar ${ DRIVE_APP_NAME }"
       ],
       "We now load images by default and block senders from tracking you. This can be changed in the ${ settingsLink }.": [
         "Ahora cargaremos las imágenes por defecto y bloquearemos los remitentes de rastrearle. Esto puede cambiarse en los ${ settingsLink }."
@@ -8555,6 +8606,9 @@
       ],
       "Sending original message": [
         "Enviando mensaje original"
+      ],
+      "Set your own schedule": [
+        "Establezca su propia programación"
       ],
       "Settings": [
         "Ajustes"

@@ -839,9 +839,6 @@
       "Schedule message": [
         "メッセージを送信予約"
       ],
-      "Schedule send": [
-        "送信予約"
-      ],
       "Search": [
         "検索"
       ],
@@ -979,6 +976,9 @@
       ],
       "This message contains remote content.": [
         "このメッセージには外部コンテンツが含まれています。"
+      ],
+      "Tomorrow": [
+        "明日"
       ],
       "Trust": [
         "信頼する"
@@ -3049,6 +3049,9 @@
       "Contact could not be saved": [
         "連絡先を保存できませんでした"
       ],
+      "Contact name is too long": [
+        "連絡先の名前が長すぎます"
+      ],
       "Contact signature could not be verified": [
         "連絡先の署名を確認できませんでした"
       ],
@@ -3337,9 +3340,6 @@
       "This message has already been sent. A new draft has been saved.": [
         "このメッセージは送信されています。下書きが保存されました。"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "このメッセージには現在のブラウザーで正しく開けない URL を含んでいる可能性があります。"
-      ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters.": [
         "有効なフィルターが多すぎます。さらに有効なフィルターを使用するには有料プランにアップグレードしてください。"
       ],
@@ -3360,9 +3360,6 @@
       ],
       "You can't send a mail to more than 100 recipients": [
         "100 人以上の受信者にメールを送信することはできません"
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "10 件以上の連絡先の vCard を送信することはできません"
       ],
       "You cannot open more than ${ maxActiveComposer } composer windows at a time": [
         "同時に ${ maxActiveComposer } つ以上の作成画面を開くことはできません"
@@ -4507,7 +4504,7 @@
         "フィッシング報告の確認"
       ],
       "Copied to clipboard": [
-        "クリップボードにコピーされました。"
+        "クリップボードにコピーされました"
       ],
       "Create ${ calendarsToBeCreated } new calendars": [
         "${ calendarsToBeCreated } 個の新しいカレンダーを作成"
@@ -4704,8 +4701,8 @@
       "Group assignment applied": [
         "グループの割り当てが適用されました"
       ],
-      "Has ${ numAttachments } attachments": [
-        "${ numAttachments } 件の添付ファイル"
+      "Has ${ numAttachments } attachments (${ numAttachmentsSize })": [
+        "${ numAttachments } 件の添付ファイル (${ numAttachmentsSize })"
       ],
       "here": [
         "こちら"
@@ -5897,14 +5894,14 @@
       "Code is 6 digits without spaces": [
         "コードは空白なしの 6 桁の数字です"
       ],
+      "Colors": [
+        "色"
+      ],
       "Coming soon": [
         "まもなく登場"
       ],
       "Conditions": [
         "条件"
-      ],
-      "Confirm password": [
-        "パスワードの確認"
       ],
       "Contacts": [
         "連絡先"
@@ -6774,6 +6771,31 @@
         "アカウントを追加・切り替え"
       ]
     },
+    "new_plans: Action": {
+      "Upgrade now": [
+        "今すぐアップグレード"
+      ]
+    },
+    "new_plans: feature": {
+      "Custom email domains": [
+        "独自メールドメイン"
+      ],
+      "Hide My Email aliases": [
+        "Hide My Email エイリアス"
+      ],
+      "Search message content": [
+        "メッセージ内容の検索"
+      ],
+      "Unlimited folders, labels and filters": [
+        "制限なしのフォルダー、ラベル、フィルター"
+      ],
+      "Up to 15 email addresses": [
+        "15 件のメールアドレス"
+      ],
+      "Up to 500 GB of storage": [
+        "500 GB のストレージ"
+      ]
+    },
     "new_plans: label": {
       "Tell us about your experience. (Optional)": [
         "あなたのご意見をお聞かせください (任意)"
@@ -6937,9 +6959,6 @@
     "Placeholder": {
       "A way to contact you": [
         "連絡手段"
-      ],
-      "Confirm password": [
-        "パスワードの確認"
       ],
       "E.g., ": [
         "例: "
@@ -7154,7 +7173,7 @@
         "該当する結果が見つかりませんでした"
       ],
       "No unread messages found": [
-        "未読メッセージが見つかりません"
+        "未読メッセージが見つかりませんでした"
       ]
     },
     "Select files": {
@@ -7287,9 +7306,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } はベータ版を卒業しました! メールと変わらないセキュリティをファイルでも体感しましょう。"
-      ],
       "Email tracking protection": [
         "メールトラッキング防止"
       ],
@@ -7304,9 +7320,6 @@
       ],
       "Schedule send": [
         "送信予約"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "${ DRIVE_APP_NAME } を試す"
       ],
       "We now load images by default and block senders from tracking you. This can be changed in the ${ settingsLink }.": [
         "デフォルトで画像を読み込みつつ、送信者があなたをトラッキングするのを防ぎます。これは ${ settingsLink } で変更できます。"
@@ -7545,7 +7558,7 @@
         "${ selectionCount } 件のメッセージを移動"
       ],
       "Password copied to clipboard": [
-        "パスワードをクリップボードにコピーしました"
+        "パスワードがクリップボードにコピーされました"
       ],
       "Phishing reported": [
         "フィッシングが報告されました"

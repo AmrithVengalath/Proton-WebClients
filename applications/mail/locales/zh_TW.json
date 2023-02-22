@@ -86,6 +86,9 @@
       "Archive": [
         "封存"
       ],
+      "As Scheduled": [
+        "按排程"
+      ],
       "Attach screenshot(s)": [
         "貼附螢幕截圖"
       ],
@@ -244,6 +247,9 @@
       ],
       "Create new message": [
         "建立新訊息"
+      ],
+      "Custom": [
+        "自訂"
       ],
       "Customize": [
         "自訂"
@@ -593,6 +599,9 @@
       "Minimize composer": [
         "最小化撰寫工具"
       ],
+      "Monday": [
+        "週一"
+      ],
       "More": [
         "更多"
       ],
@@ -839,9 +848,6 @@
       "Schedule message": [
         "排程訊息"
       ],
-      "Schedule send": [
-        "排程送出"
-      ],
       "Search": [
         "搜尋"
       ],
@@ -979,6 +985,9 @@
       ],
       "This message contains remote content.": [
         "此郵件包含遠端內容。"
+      ],
+      "Tomorrow": [
+        "明天"
       ],
       "Trust": [
         "信任"
@@ -2866,11 +2875,20 @@
       "No labels": [
         "沒有標籤"
       ],
+      "ProtonMail logo and a plus sign": [
+        "Proton Mail 標誌與加號"
+      ],
       "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files.": [
         "檔案大小上限為 ${ MAX_IMPORT_FILE_SIZE_STRING }，上限為 ${ MAX_IMPORT_CONTACTS_STRING } 個聯絡人。若您的檔案超出此限，請將其分割為較小的檔案。"
       ],
+      "Unlock custom message scheduling and other benefits when you upgrade your plan.": [
+        "升級方案以解鎖自訂訊息排程與其他好處。"
+      ],
       "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
         "拖動以調整聯絡人合併的優先次序。未勾選的聯絡人將不會被合併。"
+      ],
+      "When do you want your message to be sent?": [
+        "您想在什麼時候傳送郵件？"
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "您可以使用 iCal 格式 (ICS 檔案) 匯入事件。檔案大小上限為 ${ MAX_IMPORT_FILE_SIZE_STRING }，上限為 ${ MAX_IMPORT_EVENTS_STRING } 個事件。若您的檔案超出此限，請將其分割為較小的檔案。"
@@ -3051,6 +3069,9 @@
       ],
       "Contact could not be saved": [
         "無法儲存聯絡人"
+      ],
+      "Contact name is too long": [
+        "聯絡人名稱太長"
       ],
       "Contact signature could not be verified": [
         "無法驗證聯絡人簽章"
@@ -3340,8 +3361,8 @@
       "This message has already been sent. A new draft has been saved.": [
         "這個郵件已經傳送。新的草稿已儲存。"
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "此郵件可能包含某些您目前的瀏覽器無法正確開啟的 URL。"
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
+        "此郵件可能包含某些您目前的瀏覽器無法正確開啟的連結 URL。"
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters.": [
         "使用中篩選器太多。請升級至付費方案以啟用更多篩選器。"
@@ -3364,8 +3385,8 @@
       "You can't send a mail to more than 100 recipients": [
         "您無法將電郵傳送給超過100位收件人"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "您無法傳送超過 10 個聯絡人的 vCard"
+      "You can't send vCard files of more than 10 contacts": [
+        "您不能傳送有超過 10 個聯絡人的 vCard 檔案"
       ],
       "You cannot open more than ${ maxActiveComposer } composer windows at a time": [
         "您無法在同一時間開啟超過 ${ maxActiveComposer } 個撰寫新郵件視窗"
@@ -4521,6 +4542,9 @@
       "Copied to clipboard": [
         "已複製到剪貼簿"
       ],
+      "Country code": [
+        "國家代碼"
+      ],
       "Create ${ calendarsToBeCreated } new calendars": [
         "建立 ${ calendarsToBeCreated } 個新行事曆"
       ],
@@ -4716,8 +4740,8 @@
       "Group assignment applied": [
         "已套用群組分配"
       ],
-      "Has ${ numAttachments } attachments": [
-        "有 ${ numAttachments } 份附件"
+      "Has ${ numAttachments } attachments (${ numAttachmentsSize })": [
+        "有 ${ numAttachments } 個附件 (${ numAttachmentsSize })"
       ],
       "here": [
         "這裡"
@@ -5912,14 +5936,14 @@
       "Code is 6 digits without spaces": [
         "驗證碼為六位數且無空格"
       ],
+      "Colors": [
+        "色彩"
+      ],
       "Coming soon": [
         "敬請期待"
       ],
       "Conditions": [
         "條件"
-      ],
-      "Confirm password": [
-        "確認密碼"
       ],
       "Contacts": [
         "聯絡人"
@@ -6810,6 +6834,42 @@
         "切換或是加入帳號"
       ]
     },
+    "new_plans: Action": {
+      "Upgrade now": [
+        "立即升級"
+      ]
+    },
+    "new_plans: feature": {
+      "Custom email domains": [
+        "自訂電郵網域"
+      ],
+      "Hide My Email aliases": [
+        "Hide My Email 別名"
+      ],
+      "Schedule messages at any time": [
+        "在任意時間排程訊息"
+      ],
+      "Search message content": [
+        "搜尋郵件內容"
+      ],
+      "Unlimited folders, labels and filters": [
+        "無限的資料夾、標籤與篩選器"
+      ],
+      "Up to 15 email addresses": [
+        "多達 15 個電子郵件地址"
+      ],
+      "Up to 500 GB of storage": [
+        "多達 500 GB 的儲存空間"
+      ]
+    },
+    "new_plans: feature info": {
+      "Get unlimited aliases with SimpleLogin by ${ BRAND_NAME }": [
+        "使用 ${ BRAND_NAME } 的 SimpleLogin 取得無限的別名"
+      ],
+      "Storage space is shared accross ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
+        "儲存空間共用於 ${ MAIL_APP_NAME }、${ CALENDAR_APP_NAME } 與 ${ DRIVE_APP_NAME } 。"
+      ]
+    },
     "new_plans: label": {
       "Tell us about your experience. (Optional)": [
         "與我們分享您的使用體驗。（選填）"
@@ -6973,9 +7033,6 @@
     "Placeholder": {
       "A way to contact you": [
         "您的聯絡方式"
-      ],
-      "Confirm password": [
-        "確認密碼"
       ],
       "E.g., ": [
         "例如： "
@@ -7323,9 +7380,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } 現已正式登場！給您的檔案有如您的電子郵件一樣的安全性。"
-      ],
       "Email tracking protection": [
         "電郵追蹤防護"
       ],
@@ -7340,9 +7394,6 @@
       ],
       "Schedule send": [
         "排程傳送"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "試試看 ${ DRIVE_APP_NAME }"
       ],
       "We now load images by default and block senders from tracking you. This can be changed in the ${ settingsLink }.": [
         "我們將預設載入所有圖像，並且攔截寄件者進行追蹤。此功能可在 ${ settingsLink } 進行變更。"
@@ -8151,6 +8202,9 @@
       ],
       "Sending original message": [
         "原始郵件傳送中"
+      ],
+      "Set your own schedule": [
+        "設定您自己的排程"
       ],
       "Settings": [
         "設定"

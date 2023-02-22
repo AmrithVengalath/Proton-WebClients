@@ -3,6 +3,7 @@ import { isValid, parseISO } from 'date-fns';
 import { VCardDateOrText, VCardProperty } from '@proton/shared/lib/interfaces/contacts/VCard';
 
 import { ContactValue } from '../interfaces/contacts';
+import { CONTACT_NAME_MAX_LENGTH } from './constants';
 
 const UNESCAPE_REGEX = /\\\\|\\,|\\;/gi;
 const UNESCAPE_EXTENDED_REGEX = /\\\\|\\:|\\,|\\;/gi;
@@ -153,7 +154,7 @@ export const guessDateFromText = (text: string) => {
  * If none of the above, return today date
  * @param vCardProperty birthday or anniversary vCardProperty
  */
-export const getDateFromVCardProperty = ({ value: { date, text } }: VCardProperty<VCardDateOrText>) => {
+export const getDateFromVCardProperty = ({ value: { date, text } = {} }: VCardProperty<VCardDateOrText>) => {
     if (date && isValid(date)) {
         return date;
     } else if (text) {
@@ -165,4 +166,11 @@ export const getDateFromVCardProperty = ({ value: { date, text } }: VCardPropert
     }
 
     return new Date();
+};
+
+/**
+ * Check that the contact name is valid, the backend has a limit of 190 chars for a contact name
+ */
+export const isContactNameValid = (contactName: string) => {
+    return contactName.length <= CONTACT_NAME_MAX_LENGTH;
 };

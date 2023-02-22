@@ -38,14 +38,12 @@ import {
 } from '@proton/activation/interface';
 import { Button } from '@proton/atoms';
 import {
-    FeatureCode,
     FormModal,
     PrimaryButton,
     useApi,
     useCalendars,
     useErrorHandler,
     useEventManager,
-    useFeature,
     useFolders,
     useGetAddressKeys,
     useLabels,
@@ -58,7 +56,8 @@ import { getSilentApi } from '@proton/shared/lib/api/helpers/customConfig';
 import { getPersonalCalendars, getVisualCalendars, sortCalendars } from '@proton/shared/lib/calendar/calendar';
 import { MAX_CHARS_API } from '@proton/shared/lib/calendar/constants';
 import { setupCalendarKey } from '@proton/shared/lib/calendar/crypto/keys/setupCalendarKeys';
-import { ACCENT_COLORS, PRODUCT_NAMES } from '@proton/shared/lib/constants';
+import { ACCENT_COLORS } from '@proton/shared/lib/colors';
+import { PRODUCT_NAMES } from '@proton/shared/lib/constants';
 import { getTimezone } from '@proton/shared/lib/date/timezone';
 import { getActiveAddresses } from '@proton/shared/lib/helpers/address';
 import { toMap } from '@proton/shared/lib/helpers/object';
@@ -105,7 +104,6 @@ const EasySwitchOauthModal = ({
     ...rest
 }: Props) => {
     const [user] = useUser();
-    const useNewScopeFeature = useFeature(FeatureCode.EasySwitchGmailNewScope);
     const activeAddresses = getActiveAddresses(addresses);
     const getAddressKeys = useGetAddressKeys();
     const location = useLocation();
@@ -162,12 +160,7 @@ const EasySwitchOauthModal = ({
     const [isLoadingCreateCalendars, setIsLoadingCreateCalendars] = useState(false);
     const [isLoadingStartImportTask, setIsLoadingStartImportTask] = useState(false);
 
-    const showLoadingState =
-        isInitLoading ||
-        isLoadingOAuth ||
-        isLoadingCreateCalendars ||
-        isLoadingStartImportTask ||
-        useNewScopeFeature.loading;
+    const showLoadingState = isInitLoading || isLoadingOAuth || isLoadingCreateCalendars || isLoadingStartImportTask;
 
     const [calendarsToBeCreatedCount, setCalendarsToBeCreatedCount] = useState(0);
     const [createdCalendarsCount, setCreatedCalendarsCount] = useState(0);
@@ -258,9 +251,7 @@ const EasySwitchOauthModal = ({
             (modalModel.step === AUTHENTICATION && provider !== OAUTH_PROVIDER.GOOGLE)
         ) {
             setImportError([]);
-
-            const useNewGmailScope = useNewScopeFeature.feature?.Value === true;
-            const scopes = getScopeFromProvider(provider, checkedTypes, useNewGmailScope);
+            const scopes = getScopeFromProvider(provider, checkedTypes);
 
             triggerOAuthPopup({
                 provider,

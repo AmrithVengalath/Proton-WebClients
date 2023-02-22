@@ -86,6 +86,9 @@
       "Archive": [
         "Архив"
       ],
+      "As Scheduled": [
+        "Как запланировано"
+      ],
       "Attach screenshot(s)": [
         "Вложить снимок(ки) экрана"
       ],
@@ -244,6 +247,9 @@
       ],
       "Create new message": [
         "Создать новое сообщение"
+      ],
+      "Custom": [
+        "Настраиваемо"
       ],
       "Customize": [
         "Настроить"
@@ -602,6 +608,9 @@
       "Minimize composer": [
         "Свернуть редактор писем"
       ],
+      "Monday": [
+        "Понедельник"
+      ],
       "More": [
         "Подробнее"
       ],
@@ -848,9 +857,6 @@
       "Schedule message": [
         "Запланировать сообщение"
       ],
-      "Schedule send": [
-        "Запланированная отправка"
-      ],
       "Search": [
         "Поиск"
       ],
@@ -988,6 +994,9 @@
       ],
       "This message contains remote content.": [
         "В этом сообщении есть внешнее содержимое."
+      ],
+      "Tomorrow": [
+        "Завтра"
       ],
       "Trust": [
         "Доверять"
@@ -2896,14 +2905,23 @@
       "No labels": [
         "Нет ярлыков"
       ],
+      "ProtonMail logo and a plus sign": [
+        "Логотип Proton Mail и знак плюс"
+      ],
       "The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have ${ MAX_IMPORT_CONTACTS_STRING } contact. If your file is bigger, please split it into smaller files.": [
         "Файла должен быть не более ${ MAX_IMPORT_FILE_SIZE_STRING } и содержать не более ${ MAX_IMPORT_CONTACTS_STRING } контакта. Если ваш файл больше, то, пожалуйста, разбейте его на меньшие файлы.",
         "Файла должен быть не более ${ MAX_IMPORT_FILE_SIZE_STRING } и содержать не более ${ MAX_IMPORT_CONTACTS_STRING } контактов. Если ваш файл больше, то, пожалуйста, разбейте его на меньшие файлы.",
         "Файла должен быть не более ${ MAX_IMPORT_FILE_SIZE_STRING } и содержать не более ${ MAX_IMPORT_CONTACTS_STRING } контактов. Если ваш файл больше, то, пожалуйста, разбейте его на меньшие файлы.",
         "Файла должен быть не более ${ MAX_IMPORT_FILE_SIZE_STRING } и содержать не более ${ MAX_IMPORT_CONTACTS_STRING } контактов. Если ваш файл больше, то, пожалуйста, разбейте его на меньшие файлы."
       ],
+      "Unlock custom message scheduling and other benefits when you upgrade your plan.": [
+        "Разблокируйте возможность планирования пользовательских сообщений и другие преимущества при улучшении тарифа."
+      ],
       "Use Drag and Drop to rank merging priority between contacts. Uncheck the contacts you do not want to merge.": [
         "Перетаскивайте контакты, чтобы задавать им приоритет при объединении. Снимите галочку с контактов, которые вы не хотите объединять."
+      ],
+      "When do you want your message to be sent?": [
+        "Когда вы хотите, чтобы ваше сообщение было отправлено?"
       ],
       "You can import events in iCal format (ICS file). The file should have a maximum size of ${ MAX_IMPORT_FILE_SIZE_STRING } and have up to ${ MAX_IMPORT_EVENTS_STRING } events. If your file is bigger, please split it into smaller files.": [
         "Вы можете импортировать события в формате iCal (ICS файл). Размер файла не должен быть более ${ MAX_IMPORT_FILE_SIZE_STRING } и иметь не более ${ MAX_IMPORT_EVENTS_STRING } событий. Если ваш файл больше, разделите его на меньшие файлы."
@@ -3090,6 +3108,9 @@
       ],
       "Contact could not be saved": [
         "Невозможно сохранить контакт"
+      ],
+      "Contact name is too long": [
+        "Имя контакта слишком длинное"
       ],
       "Contact signature could not be verified": [
         "Подпись контакта не может быть проверена"
@@ -3403,7 +3424,7 @@
       "This message has already been sent. A new draft has been saved.": [
         "Это сообщение уже было отправлено. Сохранён новый черновик."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
+      "This message may contain some links URL that cannot be properly opened by your current browser.": [
         "Это сообщение может содержать ссылки, которые не могут быть правильно открыты в вашем текущем браузере."
       ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters.": [
@@ -3427,8 +3448,8 @@
       "You can't send a mail to more than 100 recipients": [
         "Нельзя отправить письмо более чем 100 получателям"
       ],
-      "You can't send vCards of more than 10 contacts": [
-        "Нельзя отправить визитные карточки более чем 10 контактов"
+      "You can't send vCard files of more than 10 contacts": [
+        "Вы не можете отправлять файлы vCard, содержащие более 10 контактов"
       ],
       "You cannot open more than ${ maxActiveComposer } composer window at a time": [
         "Вы не можете открыть одновременно более ${ maxActiveComposer } окна редактора",
@@ -4758,6 +4779,9 @@
       "Copied to clipboard": [
         "Скопировано в буфер обмена"
       ],
+      "Country code": [
+        "Код страны"
+      ],
       "Create ${ calendarsToBeCreated } new calendar": [
         "Создать ${ calendarsToBeCreated } новый календарь",
         "Создать ${ calendarsToBeCreated } новых календаря",
@@ -4974,11 +4998,11 @@
       "Group assignment applied": [
         "Группа применена"
       ],
-      "Has ${ numAttachments } attachment": [
-        "${ numAttachments } вложение",
-        "${ numAttachments } вложения",
-        "${ numAttachments } вложений",
-        "${ numAttachments } вложений"
+      "Has ${ numAttachments } attachment (${ numAttachmentsSize })": [
+        "Есть ${ numAttachments } вложение (${ numAttachmentsSize })",
+        "Есть ${ numAttachments } вложения (${ numAttachmentsSize })",
+        "Есть ${ numAttachments } вложений (${ numAttachmentsSize })",
+        "Есть ${ numAttachments } вложения (${ numAttachmentsSize })"
       ],
       "here": [
         "здесь"
@@ -6224,14 +6248,14 @@
       "Code is 6 digits without spaces": [
         "Код состоит из 6 цифр без пробелов"
       ],
+      "Colors": [
+        "Цвета"
+      ],
       "Coming soon": [
         "Скоро появится"
       ],
       "Conditions": [
         "Условия"
-      ],
-      "Confirm password": [
-        "Подтвердить пароль"
       ],
       "Contacts": [
         "Контакты"
@@ -7143,6 +7167,42 @@
         "Изменить или добавить аккаунт"
       ]
     },
+    "new_plans: Action": {
+      "Upgrade now": [
+        "Улучшить сейчас"
+      ]
+    },
+    "new_plans: feature": {
+      "Custom email domains": [
+        "Пользовательские домены электронной почты"
+      ],
+      "Hide My Email aliases": [
+        "Псевдонимы Hide My Email"
+      ],
+      "Schedule messages at any time": [
+        "Планируйте сообщения в любое время"
+      ],
+      "Search message content": [
+        "Поиск содержимого сообщения"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Неограниченное количество папок, ярлыков и фильтров"
+      ],
+      "Up to 15 email addresses": [
+        "До 15 адресов электронной почты"
+      ],
+      "Up to 500 GB of storage": [
+        "До 500 ГБ хранилища"
+      ]
+    },
+    "new_plans: feature info": {
+      "Get unlimited aliases with SimpleLogin by ${ BRAND_NAME }": [
+        "Получите неограниченное количество псевдонимов с SimpleLogin, предоставляемого ${ BRAND_NAME }"
+      ],
+      "Storage space is shared accross ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } and ${ DRIVE_APP_NAME }": [
+        "Место в хранилище распределяется между ${ MAIL_APP_NAME }, ${ CALENDAR_APP_NAME } и ${ DRIVE_APP_NAME }"
+      ]
+    },
     "new_plans: label": {
       "Tell us about your experience. (Optional)": [
         "Расскажите нам о вашем опыте (необязательно)"
@@ -7306,9 +7366,6 @@
     "Placeholder": {
       "A way to contact you": [
         "Способ связаться с вами"
-      ],
-      "Confirm password": [
-        "Подтвердите пароль"
       ],
       "E.g., ": [
         "Например, "
@@ -7930,9 +7987,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "${ DRIVE_APP_NAME } вышел из бета-версии! Обеспечьте своим файлам такую же безопасность, как и электронной почте."
-      ],
       "Email tracking protection": [
         "Защита от отслеживания электронной почты"
       ],
@@ -7947,9 +8001,6 @@
       ],
       "Schedule send": [
         "Отправка по расписанию"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Попробуйте ${ DRIVE_APP_NAME }"
       ],
       "We now load images by default and block senders from tracking you. This can be changed in the ${ settingsLink }.": [
         "Теперь мы загружаем изображения по умолчанию и не даем отправителю отслеживать вас. Это можно изменить в ${ settingsLink }."
@@ -8890,6 +8941,9 @@
       ],
       "Sending original message": [
         "Отправление исходного сообщения"
+      ],
+      "Set your own schedule": [
+        "Установить своё собственное расписание"
       ],
       "Settings": [
         "Настройки"

@@ -830,9 +830,6 @@
       "Schedule message": [
         "Üzenet ütemezése"
       ],
-      "Schedule send": [
-        "Ütemezett küldés"
-      ],
       "Search": [
         "Keresés"
       ],
@@ -3315,9 +3312,6 @@
       "This message has already been sent. A new draft has been saved.": [
         "Az üzenet már elküldésre került. Egy új piszkozat került mentésre."
       ],
-      "This message may contain some link's URL that cannot be properly opened by your current browser.": [
-        "Ez az üzenet olyan URL hivatkozásokat tartalmazhat, amelyeket a böngészője nem tud megfelelően megnyitni."
-      ],
       "Too many active filters. Please upgrade to a paid plan to activate more filters.": [
         "Túl sok bekapcsolt szűrő. Váltson nagyobb csomagra további szűrők bekapcsolásához."
       ],
@@ -3338,9 +3332,6 @@
       ],
       "You can't send a mail to more than 100 recipients": [
         "Nem küldhet üzenetet több mint 100 címzettnek"
-      ],
-      "You can't send vCards of more than 10 contacts": [
-        "Egyszerre nem küldhet el több mint 10 vCard névjegyet"
       ],
       "You cannot open more than ${ maxActiveComposer } composer window at a time": [
         "Egyszerre maximum ${ maxActiveComposer } szerkesztő ablakot nyithat meg",
@@ -4717,10 +4708,6 @@
       "Group assignment applied": [
         "Csoport hozzárendelés alkalmazva"
       ],
-      "Has ${ numAttachments } attachment": [
-        "${ numAttachments } csatolt fájl van",
-        "${ numAttachments } csatolt fájl van"
-      ],
       "here": [
         "ide"
       ],
@@ -5901,9 +5888,6 @@
       "Conditions": [
         "Feltételek"
       ],
-      "Confirm password": [
-        "Jelszó megerősítése"
-      ],
       "Contacts": [
         "Névjegyek"
       ],
@@ -6778,6 +6762,19 @@
         "Váltás vagy fiók hozzáadása"
       ]
     },
+    "new_plans: Action": {
+      "Upgrade now": [
+        "Váltás nagyobb csomagra"
+      ]
+    },
+    "new_plans: feature": {
+      "Custom email domains": [
+        "Saját domain nevek"
+      ],
+      "Unlimited folders, labels and filters": [
+        "Korlátlan számú mappa, címke és szűrő"
+      ]
+    },
     "new_plans: label": {
       "Tell us about your experience. (Optional)": [
         "Küldjön visszajelzést a tapasztalatairól. (Opcionális)"
@@ -6938,9 +6935,6 @@
     "Placeholder": {
       "A way to contact you": [
         "Kapcsolatfelvételi lehetőség"
-      ],
-      "Confirm password": [
-        "Jelszó megerősítése"
       ],
       "E.g., ": [
         "Pl., "
@@ -7289,9 +7283,6 @@
       ]
     },
     "Spotlight": {
-      "${ DRIVE_APP_NAME } is out of beta! Give your files the same security your emails get.": [
-        "A ${ DRIVE_APP_NAME } kijött a bétából! Adja meg fájljainak ugyanazt a biztonságot, amit az emiljei is kapnak."
-      ],
       "Email tracking protection": [
         "E-mail követési védelem"
       ],
@@ -7306,9 +7297,6 @@
       ],
       "Schedule send": [
         "Küldés ütemezése"
-      ],
-      "Try ${ DRIVE_APP_NAME }": [
-        "Próbálja ki a ${ DRIVE_APP_NAME }-ot"
       ],
       "We now load images by default and block senders from tracking you. This can be changed in the ${ settingsLink }.": [
         "A képek már alapértelmezetten betöltődnek, a feladók általi követés megakadályozásával. Ez megváltoztatható a ${ settingsLink }."
